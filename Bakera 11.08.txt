@@ -12,3 +12,6 @@ Linearen = nacheinander einmalig
 Iterativ = jeder durchlauf mehrmals
 
 
+XP(Extreme Programming)
+Softwareentwicklungsprozess insbesondere auf die eigentliche Programmierung konzentriert
+agilen oder leichtgewichtigen
