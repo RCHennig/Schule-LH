@@ -1,4 +1,4 @@
-class priceCar:
+class Car:
     'Simple caR.'
     def __init__(self, brand, price, hp, fuel, mileage, color, noaccident):
         'Atributes'

@@ -1,0 +1,31 @@
+[11:42:10] [Server thread/INFO]: Starting minecraft server version 1.12
+[11:42:10] [Server thread/INFO]: Loading properties
+[11:42:10] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Das Handle ist ungültig
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:244) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:263) ~[?:?]
+	at org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:248) ~[spigot-1.12.jar:git-Spigot-596221b-9a1fc1e]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:261) ~[spigot-1.12.jar:git-Spigot-596221b-9a1fc1e]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:198) ~[spigot-1.12.jar:git-Spigot-596221b-9a1fc1e]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145) ~[spigot-1.12.jar:git-Spigot-596221b-9a1fc1e]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLineSimple(ConsoleReader.java:3183) ~[spigot-1.12.jar:git-Spigot-596221b-9a1fc1e]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2333) ~[spigot-1.12.jar:git-Spigot-596221b-9a1fc1e]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2269) ~[spigot-1.12.jar:git-Spigot-596221b-9a1fc1e]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2257) ~[spigot-1.12.jar:git-Spigot-596221b-9a1fc1e]
+	at net.minecraft.server.v1_12_R1.DedicatedServer$2.run(DedicatedServer.java:87) [spigot-1.12.jar:git-Spigot-596221b-9a1fc1e]
+[11:42:10] [Server thread/INFO]: Default game type: SURVIVAL
+[11:42:10] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-596221b-9a1fc1e (MC: 1.12) (Implementing API version 1.12-R0.1-SNAPSHOT)
+[11:42:11] [Server thread/INFO]: Debug logging is disabled
+[11:42:11] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:42:11] [Server thread/INFO]: Server Ping Player Sample Count: 12
+
+[11:42:11] [Server thread/INFO]: Generating keypair
+[11:42:11] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:42:11] [Server thread/INFO]: Using default channel type
+[11:42:11] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[11:42:11] [Server thread/WARN]: The exception was: java.net.BindException: Address already in use: bind
+[11:42:11] [Server thread/WARN]: Perhaps a server is already running on that port?
+[11:42:11] [Server thread/INFO]: Stopping server
+[11:42:11] [Server thread/INFO]: Saving players
