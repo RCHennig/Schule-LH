@@ -1,152 +1,1089 @@
-[13:03:43] [Server thread/INFO]: Loading properties
-[13:03:43] [Server thread/INFO]: Default game type: SURVIVAL
-[13:03:43] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-596221b-9a1fc1e (MC: 1.12) (Implementing API version 1.12-R0.1-SNAPSHOT)
-[13:03:43] [Server thread/INFO]: Debug logging is disabled
-[13:03:43] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[09:26:40] [Server thread/INFO]: Loading properties
+[09:26:40] [Server thread/INFO]: Default game type: SURVIVAL
+[09:26:40] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-596221b-9a1fc1e (MC: 1.12) (Implementing API version 1.12-R0.1-SNAPSHOT)
+[09:26:40] [Server thread/INFO]: Debug logging is disabled
+[09:26:40] [Server thread/INFO]: Server Ping Player Sample Count: 12
 
-[13:03:43] [Server thread/INFO]: Using 4 threads for Netty based IO
-[13:03:43] [Server thread/INFO]: Generating keypair
-[13:03:43] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:03:43] [Server thread/INFO]: Using default channel type
-[13:03:44] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[13:03:44] [Server thread/INFO]: [RaspberryJuice] Loading RaspberryJuice v1.11
-[13:03:44] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[13:03:44] [Server thread/INFO]: Preparing level "world"
-[13:03:44] [Server thread/INFO]: -------- World Settings For [world] --------
-[13:03:44] [Server thread/INFO]: Item Despawn Rate: 6000
-[13:03:44] [Server thread/INFO]: Item Merge Radius: 2.5
-[13:03:44] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[13:03:44] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[13:03:44] [Server thread/INFO]: View Distance: 10
-[13:03:44] [Server thread/INFO]: Experience Merge Radius: 3.0
-[13:03:44] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[13:03:44] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[13:03:44] [Server thread/INFO]: Mob Spawn Range: 4
-[13:03:44] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[13:03:44] [Server thread/INFO]: Cane Growth Modifier: 100%
-[13:03:44] [Server thread/INFO]: Melon Growth Modifier: 100%
-[13:03:44] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[13:03:44] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[13:03:44] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[13:03:44] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[13:03:44] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[13:03:44] [Server thread/INFO]: Vine Growth Modifier: 100%
-[13:03:44] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[13:03:44] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[13:03:44] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[13:03:44] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[13:03:44] [Server thread/INFO]: Random Lighting Updates: false
-[13:03:44] [Server thread/INFO]: Max TNT Explosions: 100
-[13:03:44] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[13:03:44] [Server thread/INFO]: Structure Info Saving: true
-[13:03:44] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[13:03:44] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[13:03:44] [Server thread/INFO]: Item Despawn Rate: 6000
-[13:03:44] [Server thread/INFO]: Item Merge Radius: 2.5
-[13:03:44] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[13:03:44] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[13:03:44] [Server thread/INFO]: View Distance: 10
-[13:03:44] [Server thread/INFO]: Experience Merge Radius: 3.0
-[13:03:44] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[13:03:44] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[13:03:44] [Server thread/INFO]: Mob Spawn Range: 4
-[13:03:44] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[13:03:44] [Server thread/INFO]: Cane Growth Modifier: 100%
-[13:03:44] [Server thread/INFO]: Melon Growth Modifier: 100%
-[13:03:44] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[13:03:44] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[13:03:44] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[13:03:44] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[13:03:44] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[13:03:44] [Server thread/INFO]: Vine Growth Modifier: 100%
-[13:03:44] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[13:03:44] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[13:03:44] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[13:03:44] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[13:03:44] [Server thread/INFO]: Random Lighting Updates: false
-[13:03:44] [Server thread/INFO]: Max TNT Explosions: 100
-[13:03:44] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[13:03:44] [Server thread/INFO]: Structure Info Saving: true
-[13:03:44] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[13:03:44] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[13:03:44] [Server thread/INFO]: Item Despawn Rate: 6000
-[13:03:44] [Server thread/INFO]: Item Merge Radius: 2.5
-[13:03:44] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[13:03:44] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[13:03:44] [Server thread/INFO]: View Distance: 10
-[13:03:44] [Server thread/INFO]: Experience Merge Radius: 3.0
-[13:03:44] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[13:03:44] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[13:03:44] [Server thread/INFO]: Mob Spawn Range: 4
-[13:03:44] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[13:03:44] [Server thread/INFO]: Cane Growth Modifier: 100%
-[13:03:44] [Server thread/INFO]: Melon Growth Modifier: 100%
-[13:03:44] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[13:03:44] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[13:03:44] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[13:03:44] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[13:03:44] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[13:03:44] [Server thread/INFO]: Vine Growth Modifier: 100%
-[13:03:44] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[13:03:44] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[13:03:44] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[13:03:44] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[13:03:44] [Server thread/INFO]: Random Lighting Updates: false
-[13:03:44] [Server thread/INFO]: Max TNT Explosions: 100
-[13:03:44] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[13:03:44] [Server thread/INFO]: Structure Info Saving: true
-[13:03:44] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[13:03:44] [Server thread/INFO]: Preparing start region for level 0 (Seed: -2948864639534662918)
-[13:03:45] [Server thread/INFO]: Preparing start region for level 1 (Seed: -4212310529100780909)
-[13:03:46] [Server thread/INFO]: Preparing spawn area: 98%
-[13:03:46] [Server thread/INFO]: Preparing start region for level 2 (Seed: -4212310529100780909)
-[13:03:46] [Server thread/INFO]: [RaspberryJuice] Enabling RaspberryJuice v1.11
-[13:03:46] [Server thread/INFO]: [RaspberryJuice] Using port 4711
-[13:03:46] [Server thread/INFO]: [RaspberryJuice] Using RELATIVE locations
-[13:03:46] [Server thread/INFO]: [RaspberryJuice] Using RIGHT clicks for hits
-[13:03:46] [Server thread/INFO]: [RaspberryJuice] ThreadListener Started
-[13:03:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[13:03:46] [Server thread/INFO]: Done (2,487s)! For help, type "help" or "?"
-[13:04:59] [User Authenticator #1/INFO]: UUID of player TheTaxary is 6b7b323d-10ca-4f57-9de4-06091b54d602
-[13:04:59] [Server thread/INFO]: TheTaxary[/127.0.0.1:59380] logged in with entity id 46 at ([world]5.825721414762937, 4.0, -69.16414203429579)
-[13:17:07] [Thread-6/INFO]: [RaspberryJuice] Starting input thread
-[13:17:07] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59510.
-[13:17:07] [Thread-7/INFO]: [RaspberryJuice] Starting output thread!
-[13:17:15] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59510.
-[13:17:54] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59512.
-[13:17:54] [Thread-9/INFO]: [RaspberryJuice] Starting output thread!
-[13:17:54] [Thread-8/INFO]: [RaspberryJuice] Starting input thread
-[13:17:57] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59512.
-[13:21:09] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59527.
-[13:21:09] [Thread-11/INFO]: [RaspberryJuice] Starting output thread!
-[13:21:09] [Thread-10/INFO]: [RaspberryJuice] Starting input thread
-[13:21:13] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59527.
-[13:24:29] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59535.
-[13:24:29] [Thread-12/INFO]: [RaspberryJuice] Starting input thread
-[13:24:29] [Thread-13/INFO]: [RaspberryJuice] Starting output thread!
-[13:27:52] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59535.
-[13:27:53] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59540.
-[13:27:53] [Thread-15/INFO]: [RaspberryJuice] Starting output thread!
-[13:27:53] [Thread-14/INFO]: [RaspberryJuice] Starting input thread
-[13:27:57] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59541.
-[13:27:57] [Thread-16/INFO]: [RaspberryJuice] Starting input thread
-[13:27:57] [Thread-17/INFO]: [RaspberryJuice] Starting output thread!
-[13:27:57] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59542.
-[13:27:57] [Thread-18/INFO]: [RaspberryJuice] Starting input thread
-[13:27:57] [Thread-19/INFO]: [RaspberryJuice] Starting output thread!
-[13:27:57] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59541.
-[13:30:40] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59559.
-[13:30:40] [Thread-20/INFO]: [RaspberryJuice] Starting input thread
-[13:30:40] [Thread-21/INFO]: [RaspberryJuice] Starting output thread!
-[13:30:40] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59542.
-[13:30:40] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59560.
-[13:30:40] [Thread-23/INFO]: [RaspberryJuice] Starting output thread!
-[13:30:40] [Thread-22/INFO]: [RaspberryJuice] Starting input thread
-[13:30:40] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.11 generated an exception
+[09:26:41] [Server thread/INFO]: Using 4 threads for Netty based IO
+[09:26:41] [Server thread/INFO]: Generating keypair
+[09:26:41] [Server thread/INFO]: Starting Minecraft server on *:25565
+[09:26:41] [Server thread/INFO]: Using default channel type
+[09:26:41] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[09:26:41] [Server thread/INFO]: [RaspberryJuice] Loading RaspberryJuice v1.11
+[09:26:41] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[09:26:41] [Server thread/INFO]: Preparing level "world"
+[09:26:41] [Server thread/INFO]: -------- World Settings For [world] --------
+[09:26:41] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[09:26:41] [Server thread/INFO]: Item Despawn Rate: 6000
+[09:26:41] [Server thread/INFO]: Item Merge Radius: 2.5
+[09:26:41] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[09:26:41] [Server thread/INFO]: Experience Merge Radius: 3.0
+[09:26:41] [Server thread/INFO]: Mob Spawn Range: 4
+[09:26:41] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[09:26:41] [Server thread/INFO]: Cane Growth Modifier: 100%
+[09:26:41] [Server thread/INFO]: Melon Growth Modifier: 100%
+[09:26:41] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[09:26:41] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[09:26:41] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[09:26:41] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[09:26:41] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[09:26:41] [Server thread/INFO]: Vine Growth Modifier: 100%
+[09:26:41] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[09:26:41] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[09:26:41] [Server thread/INFO]: Structure Info Saving: true
+[09:26:41] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[09:26:41] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[09:26:41] [Server thread/INFO]: Random Lighting Updates: false
+[09:26:41] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[09:26:41] [Server thread/INFO]: Max TNT Explosions: 100
+[09:26:41] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[09:26:41] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[09:26:41] [Server thread/INFO]: View Distance: 10
+[09:26:41] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[09:26:41] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[09:26:41] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[09:26:41] [Server thread/INFO]: Item Despawn Rate: 6000
+[09:26:41] [Server thread/INFO]: Item Merge Radius: 2.5
+[09:26:41] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[09:26:41] [Server thread/INFO]: Experience Merge Radius: 3.0
+[09:26:41] [Server thread/INFO]: Mob Spawn Range: 4
+[09:26:41] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[09:26:41] [Server thread/INFO]: Cane Growth Modifier: 100%
+[09:26:41] [Server thread/INFO]: Melon Growth Modifier: 100%
+[09:26:41] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[09:26:41] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[09:26:41] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[09:26:41] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[09:26:41] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[09:26:41] [Server thread/INFO]: Vine Growth Modifier: 100%
+[09:26:41] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[09:26:41] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[09:26:41] [Server thread/INFO]: Structure Info Saving: true
+[09:26:41] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[09:26:41] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[09:26:41] [Server thread/INFO]: Random Lighting Updates: false
+[09:26:41] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[09:26:41] [Server thread/INFO]: Max TNT Explosions: 100
+[09:26:41] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[09:26:41] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[09:26:41] [Server thread/INFO]: View Distance: 10
+[09:26:41] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[09:26:41] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[09:26:41] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[09:26:41] [Server thread/INFO]: Item Despawn Rate: 6000
+[09:26:41] [Server thread/INFO]: Item Merge Radius: 2.5
+[09:26:41] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[09:26:41] [Server thread/INFO]: Experience Merge Radius: 3.0
+[09:26:41] [Server thread/INFO]: Mob Spawn Range: 4
+[09:26:41] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[09:26:41] [Server thread/INFO]: Cane Growth Modifier: 100%
+[09:26:41] [Server thread/INFO]: Melon Growth Modifier: 100%
+[09:26:41] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[09:26:41] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[09:26:41] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[09:26:41] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[09:26:41] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[09:26:41] [Server thread/INFO]: Vine Growth Modifier: 100%
+[09:26:41] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[09:26:41] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[09:26:41] [Server thread/INFO]: Structure Info Saving: true
+[09:26:41] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[09:26:41] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[09:26:41] [Server thread/INFO]: Random Lighting Updates: false
+[09:26:41] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[09:26:41] [Server thread/INFO]: Max TNT Explosions: 100
+[09:26:41] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[09:26:41] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[09:26:41] [Server thread/INFO]: View Distance: 10
+[09:26:41] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[09:26:41] [Server thread/INFO]: Preparing start region for level 0 (Seed: -2948864639534662918)
+[09:26:42] [Server thread/INFO]: Preparing start region for level 1 (Seed: -4212310529100780909)
+[09:26:43] [Server thread/INFO]: Preparing start region for level 2 (Seed: -4212310529100780909)
+[09:26:43] [Server thread/INFO]: [RaspberryJuice] Enabling RaspberryJuice v1.11
+[09:26:43] [Server thread/INFO]: [RaspberryJuice] Using port 4711
+[09:26:43] [Server thread/INFO]: [RaspberryJuice] Using RELATIVE locations
+[09:26:43] [Server thread/INFO]: [RaspberryJuice] Using RIGHT clicks for hits
+[09:26:43] [Server thread/INFO]: [RaspberryJuice] ThreadListener Started
+[09:26:43] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[09:26:43] [Server thread/INFO]: Done (1,957s)! For help, type "help" or "?"
+[09:27:48] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51238.
+[09:27:48] [Thread-6/INFO]: [RaspberryJuice] Starting input thread
+[09:27:48] [Thread-7/INFO]: [RaspberryJuice] Starting output thread!
+[09:27:58] [User Authenticator #1/INFO]: UUID of player TheTaxary is 6b7b323d-10ca-4f57-9de4-06091b54d602
+[09:27:58] [Server thread/INFO]: TheTaxary[/127.0.0.1:51288] logged in with entity id 52 at ([world]-71.09752242509227, 4.0, -84.36479625148108)
+[09:28:02] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51238.
+[09:29:02] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51292.
+[09:29:02] [Thread-8/INFO]: [RaspberryJuice] Starting input thread
+[09:29:02] [Thread-9/INFO]: [RaspberryJuice] Starting output thread!
+[09:29:04] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51292.
+[09:29:45] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51293.
+[09:29:45] [Thread-11/INFO]: [RaspberryJuice] Starting output thread!
+[09:29:45] [Thread-10/INFO]: [RaspberryJuice] Starting input thread
+[09:29:48] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51294.
+[09:29:48] [Thread-13/INFO]: [RaspberryJuice] Starting output thread!
+[09:29:48] [Thread-12/INFO]: [RaspberryJuice] Starting input thread
+[09:29:48] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51295.
+[09:29:48] [Thread-14/INFO]: [RaspberryJuice] Starting input thread
+[09:29:48] [Thread-15/INFO]: [RaspberryJuice] Starting output thread!
+[09:29:48] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51294.
+[09:30:08] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51296.
+[09:30:08] [Thread-16/INFO]: [RaspberryJuice] Starting input thread
+[09:30:08] [Thread-17/INFO]: [RaspberryJuice] Starting output thread!
+[09:30:08] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51295.
+[09:30:08] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51297.
+[09:30:08] [Thread-18/INFO]: [RaspberryJuice] Starting input thread
+[09:30:08] [Thread-19/INFO]: [RaspberryJuice] Starting output thread!
+[09:30:08] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51296.
+[09:30:11] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51299.
+[09:30:11] [Thread-20/INFO]: [RaspberryJuice] Starting input thread
+[09:30:11] [Thread-21/INFO]: [RaspberryJuice] Starting output thread!
+[09:30:11] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51297.
+[09:30:11] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51300.
+[09:30:11] [Thread-22/INFO]: [RaspberryJuice] Starting input thread
+[09:30:11] [Thread-23/INFO]: [RaspberryJuice] Starting output thread!
+[09:30:12] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51299.
+[09:30:12] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51304.
+[09:30:12] [Thread-24/INFO]: [RaspberryJuice] Starting input thread
+[09:30:12] [Thread-25/INFO]: [RaspberryJuice] Starting output thread!
+[09:30:13] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51305.
+[09:30:13] [Thread-26/INFO]: [RaspberryJuice] Starting input thread
+[09:30:13] [Thread-27/INFO]: [RaspberryJuice] Starting output thread!
+[09:30:13] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51300.
+[09:30:13] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51304.
+[09:30:13] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51306.
+[09:30:13] [Thread-29/INFO]: [RaspberryJuice] Starting output thread!
+[09:30:13] [Thread-28/INFO]: [RaspberryJuice] Starting input thread
+[09:30:13] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51305.
+[09:30:13] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51307.
+[09:30:13] [Thread-30/INFO]: [RaspberryJuice] Starting input thread
+[09:30:13] [Thread-31/INFO]: [RaspberryJuice] Starting output thread!
+[09:30:13] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51306.
+[09:30:14] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51308.
+[09:30:14] [Thread-32/INFO]: [RaspberryJuice] Starting input thread
+[09:30:14] [Thread-33/INFO]: [RaspberryJuice] Starting output thread!
+[09:30:14] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51309.
+[09:30:14] [Thread-34/INFO]: [RaspberryJuice] Starting input thread
+[09:30:14] [Thread-35/INFO]: [RaspberryJuice] Starting output thread!
+[09:30:14] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51307.
+[09:30:14] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51308.
+[09:30:15] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51310.
+[09:30:15] [Thread-36/INFO]: [RaspberryJuice] Starting input thread
+[09:30:15] [Thread-37/INFO]: [RaspberryJuice] Starting output thread!
+[09:30:16] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51311.
+[09:30:16] [Thread-39/INFO]: [RaspberryJuice] Starting output thread!
+[09:30:16] [Thread-38/INFO]: [RaspberryJuice] Starting input thread
+[09:30:16] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51309.
+[09:30:16] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51310.
+[09:30:17] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51312.
+[09:30:17] [Thread-41/INFO]: [RaspberryJuice] Starting output thread!
+[09:30:17] [Thread-40/INFO]: [RaspberryJuice] Starting input thread
+[09:30:17] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51313.
+[09:30:17] [Thread-42/INFO]: [RaspberryJuice] Starting input thread
+[09:30:17] [Thread-43/INFO]: [RaspberryJuice] Starting output thread!
+[09:30:17] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51311.
+[09:30:17] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51312.
+[09:30:18] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51314.
+[09:30:18] [Thread-45/INFO]: [RaspberryJuice] Starting output thread!
+[09:30:18] [Thread-44/INFO]: [RaspberryJuice] Starting input thread
+[09:30:18] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51313.
+[09:30:18] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51315.
+[09:30:18] [Thread-46/INFO]: [RaspberryJuice] Starting input thread
+[09:30:18] [Thread-47/INFO]: [RaspberryJuice] Starting output thread!
+[09:30:18] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51314.
+[09:30:19] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51316.
+[09:30:19] [Thread-49/INFO]: [RaspberryJuice] Starting output thread!
+[09:30:19] [Thread-48/INFO]: [RaspberryJuice] Starting input thread
+[09:30:19] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51315.
+[09:30:19] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51317.
+[09:30:19] [Thread-51/INFO]: [RaspberryJuice] Starting output thread!
+[09:30:19] [Thread-50/INFO]: [RaspberryJuice] Starting input thread
+[09:30:19] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51316.
+[09:30:20] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51318.
+[09:30:20] [Thread-52/INFO]: [RaspberryJuice] Starting input thread
+[09:30:20] [Thread-53/INFO]: [RaspberryJuice] Starting output thread!
+[09:30:20] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51317.
+[09:30:20] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51319.
+[09:30:20] [Thread-55/INFO]: [RaspberryJuice] Starting output thread!
+[09:30:20] [Thread-54/INFO]: [RaspberryJuice] Starting input thread
+[09:30:20] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51318.
+[09:30:21] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51320.
+[09:30:21] [Thread-56/INFO]: [RaspberryJuice] Starting input thread
+[09:30:21] [Thread-57/INFO]: [RaspberryJuice] Starting output thread!
+[09:30:21] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51319.
+[09:30:21] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51321.
+[09:30:21] [Thread-58/INFO]: [RaspberryJuice] Starting input thread
+[09:30:21] [Thread-59/INFO]: [RaspberryJuice] Starting output thread!
+[09:30:22] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51322.
+[09:30:22] [Thread-60/INFO]: [RaspberryJuice] Starting input thread
+[09:30:22] [Thread-61/INFO]: [RaspberryJuice] Starting output thread!
+[09:30:22] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51320.
+[09:30:22] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51321.
+[09:30:22] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51323.
+[09:30:22] [Thread-62/INFO]: [RaspberryJuice] Starting input thread
+[09:30:22] [Thread-63/INFO]: [RaspberryJuice] Starting output thread!
+[09:30:22] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51324.
+[09:30:22] [Thread-65/INFO]: [RaspberryJuice] Starting output thread!
+[09:30:22] [Thread-64/INFO]: [RaspberryJuice] Starting input thread
+[09:30:22] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51322.
+[09:30:22] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51323.
+[09:30:22] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51325.
+[09:30:22] [Thread-66/INFO]: [RaspberryJuice] Starting input thread
+[09:30:22] [Thread-67/INFO]: [RaspberryJuice] Starting output thread!
+[09:30:22] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51324.
+[09:30:22] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51326.
+[09:30:22] [Thread-69/INFO]: [RaspberryJuice] Starting output thread!
+[09:30:22] [Thread-68/INFO]: [RaspberryJuice] Starting input thread
+[09:30:22] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51327.
+[09:30:22] [Thread-70/INFO]: [RaspberryJuice] Starting input thread
+[09:30:22] [Thread-71/INFO]: [RaspberryJuice] Starting output thread!
+[09:30:22] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51325.
+[09:30:23] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51326.
+[09:30:42] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51293.
+[09:30:42] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51327.
+[09:30:43] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51328.
+[09:30:43] [Thread-72/INFO]: [RaspberryJuice] Starting input thread
+[09:30:43] [Thread-73/INFO]: [RaspberryJuice] Starting output thread!
+[09:30:46] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51328.
+[09:31:35] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51329.
+[09:31:35] [Thread-74/INFO]: [RaspberryJuice] Starting input thread
+[09:31:35] [Thread-75/INFO]: [RaspberryJuice] Starting output thread!
+[09:31:38] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51329.
+[09:34:04] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51346.
+[09:34:04] [Thread-77/INFO]: [RaspberryJuice] Starting output thread!
+[09:34:04] [Thread-76/INFO]: [RaspberryJuice] Starting input thread
+[09:34:07] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51346.
+[09:35:42] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51355.
+[09:35:42] [Thread-79/INFO]: [RaspberryJuice] Starting output thread!
+[09:35:42] [Thread-78/INFO]: [RaspberryJuice] Starting input thread
+[09:35:44] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51355.
+[09:38:00] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51367.
+[09:38:00] [Thread-80/INFO]: [RaspberryJuice] Starting input thread
+[09:38:00] [Thread-81/INFO]: [RaspberryJuice] Starting output thread!
+[09:38:03] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51367.
+[09:38:18] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51370.
+[09:38:18] [Thread-82/INFO]: [RaspberryJuice] Starting input thread
+[09:38:18] [Thread-83/INFO]: [RaspberryJuice] Starting output thread!
+[09:39:52] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51370.
+[09:40:17] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51379.
+[09:40:17] [Thread-84/INFO]: [RaspberryJuice] Starting input thread
+[09:40:17] [Thread-85/INFO]: [RaspberryJuice] Starting output thread!
+[09:40:20] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51380.
+[09:40:20] [Thread-86/INFO]: [RaspberryJuice] Starting input thread
+[09:40:20] [Thread-87/INFO]: [RaspberryJuice] Starting output thread!
+[09:40:20] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51379.
+[09:40:20] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51380.
+[09:43:57] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51423.
+[09:43:57] [Thread-89/INFO]: [RaspberryJuice] Starting output thread!
+[09:43:57] [Thread-88/INFO]: [RaspberryJuice] Starting input thread
+[09:44:00] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51423.
+[10:18:53] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51733.
+[10:18:53] [Thread-90/INFO]: [RaspberryJuice] Starting input thread
+[10:18:53] [Thread-91/INFO]: [RaspberryJuice] Starting output thread!
+[10:18:54] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51733.
+[10:19:23] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51734.
+[10:19:23] [Thread-92/INFO]: [RaspberryJuice] Starting input thread
+[10:19:23] [Thread-93/INFO]: [RaspberryJuice] Starting output thread!
+[10:19:23] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51734.
+[10:21:43] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51739.
+[10:21:43] [Thread-95/INFO]: [RaspberryJuice] Starting output thread!
+[10:21:43] [Thread-94/INFO]: [RaspberryJuice] Starting input thread
+[10:21:43] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51739.
+[10:22:28] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51747.
+[10:22:28] [Thread-97/INFO]: [RaspberryJuice] Starting output thread!
+[10:22:28] [Thread-96/INFO]: [RaspberryJuice] Starting input thread
+[10:22:28] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51748.
+[10:22:28] [Thread-99/INFO]: [RaspberryJuice] Starting output thread!
+[10:22:28] [Thread-98/INFO]: [RaspberryJuice] Starting input thread
+[10:22:28] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51747.
+[10:22:30] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51749.
+[10:22:30] [Thread-101/INFO]: [RaspberryJuice] Starting output thread!
+[10:22:30] [Thread-100/INFO]: [RaspberryJuice] Starting input thread
+[10:22:30] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51750.
+[10:22:30] [Thread-103/INFO]: [RaspberryJuice] Starting output thread!
+[10:22:30] [Thread-102/INFO]: [RaspberryJuice] Starting input thread
+[10:22:30] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51748.
+[10:22:30] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51749.
+[10:22:31] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51751.
+[10:22:31] [Thread-105/INFO]: [RaspberryJuice] Starting output thread!
+[10:22:31] [Thread-104/INFO]: [RaspberryJuice] Starting input thread
+[10:22:31] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51752.
+[10:22:31] [Thread-106/INFO]: [RaspberryJuice] Starting input thread
+[10:22:31] [Thread-107/INFO]: [RaspberryJuice] Starting output thread!
+[10:22:31] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51750.
+[10:22:31] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51751.
+[10:22:32] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51753.
+[10:22:32] [Thread-108/INFO]: [RaspberryJuice] Starting input thread
+[10:22:32] [Thread-109/INFO]: [RaspberryJuice] Starting output thread!
+[10:22:32] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51754.
+[10:22:32] [Thread-110/INFO]: [RaspberryJuice] Starting input thread
+[10:22:32] [Thread-111/INFO]: [RaspberryJuice] Starting output thread!
+[10:22:32] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51752.
+[10:22:32] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51753.
+[10:22:33] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51755.
+[10:22:33] [Thread-113/INFO]: [RaspberryJuice] Starting output thread!
+[10:22:33] [Thread-112/INFO]: [RaspberryJuice] Starting input thread
+[10:22:33] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51756.
+[10:22:33] [Thread-115/INFO]: [RaspberryJuice] Starting output thread!
+[10:22:33] [Thread-114/INFO]: [RaspberryJuice] Starting input thread
+[10:22:33] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51754.
+[10:22:33] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51755.
+[10:22:33] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51757.
+[10:22:33] [Thread-117/INFO]: [RaspberryJuice] Starting output thread!
+[10:22:33] [Thread-116/INFO]: [RaspberryJuice] Starting input thread
+[10:22:34] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51758.
+[10:22:34] [Thread-119/INFO]: [RaspberryJuice] Starting output thread!
+[10:22:34] [Thread-118/INFO]: [RaspberryJuice] Starting input thread
+[10:22:34] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51756.
+[10:22:34] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51757.
+[10:22:34] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51759.
+[10:22:34] [Thread-121/INFO]: [RaspberryJuice] Starting output thread!
+[10:22:34] [Thread-120/INFO]: [RaspberryJuice] Starting input thread
+[10:22:34] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51760.
+[10:22:34] [Thread-122/INFO]: [RaspberryJuice] Starting input thread
+[10:22:34] [Thread-123/INFO]: [RaspberryJuice] Starting output thread!
+[10:22:34] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51758.
+[10:22:35] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51759.
+[10:22:38] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51761.
+[10:22:38] [Thread-125/INFO]: [RaspberryJuice] Starting output thread!
+[10:22:38] [Thread-124/INFO]: [RaspberryJuice] Starting input thread
+[10:22:38] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51762.
+[10:22:38] [Thread-127/INFO]: [RaspberryJuice] Starting output thread!
+[10:22:38] [Thread-126/INFO]: [RaspberryJuice] Starting input thread
+[10:22:38] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51760.
+[10:22:38] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51761.
+[10:23:02] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51762.
+[10:23:06] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51767.
+[10:23:06] [Thread-129/INFO]: [RaspberryJuice] Starting output thread!
+[10:23:06] [Thread-128/INFO]: [RaspberryJuice] Starting input thread
+[10:23:06] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51767.
+[10:23:52] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51771.
+[10:23:52] [Thread-130/INFO]: [RaspberryJuice] Starting input thread
+[10:23:52] [Thread-131/INFO]: [RaspberryJuice] Starting output thread!
+[10:23:52] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51771.
+[10:26:36] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51860.
+[10:26:36] [Thread-132/INFO]: [RaspberryJuice] Starting input thread
+[10:26:36] [Thread-133/INFO]: [RaspberryJuice] Starting output thread!
+[10:26:36] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51860.
+[11:18:24] [Server thread/INFO]: TheTaxary lost connection: Disconnected
+[11:18:24] [Server thread/INFO]: TheTaxary left the game
+[13:06:17] [User Authenticator #2/INFO]: UUID of player TheTaxary is 6b7b323d-10ca-4f57-9de4-06091b54d602
+[13:06:17] [Server thread/INFO]: TheTaxary[/127.0.0.1:53038] logged in with entity id 1581012 at ([world]-171.54455220888582, 4.0, -171.76473196802414)
+[13:09:13] [Thread-134/INFO]: [RaspberryJuice] Starting input thread
+[13:09:13] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53129.
+[13:09:13] [Thread-135/INFO]: [RaspberryJuice] Starting output thread!
+[13:09:13] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53129.
+[13:29:52] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53210.
+[13:29:52] [Thread-136/INFO]: [RaspberryJuice] Starting input thread
+[13:29:52] [Thread-137/INFO]: [RaspberryJuice] Starting output thread!
+[13:29:55] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53211.
+[13:29:55] [Thread-138/INFO]: [RaspberryJuice] Starting input thread
+[13:29:55] [Thread-139/INFO]: [RaspberryJuice] Starting output thread!
+[13:29:55] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53212.
+[13:29:55] [Thread-140/INFO]: [RaspberryJuice] Starting input thread
+[13:29:55] [Thread-141/INFO]: [RaspberryJuice] Starting output thread!
+[13:29:55] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53211.
+[13:29:57] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53213.
+[13:29:57] [Thread-142/INFO]: [RaspberryJuice] Starting input thread
+[13:29:57] [Thread-143/INFO]: [RaspberryJuice] Starting output thread!
+[13:29:57] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53212.
+[13:29:57] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53214.
+[13:29:57] [Thread-144/INFO]: [RaspberryJuice] Starting input thread
+[13:29:57] [Thread-145/INFO]: [RaspberryJuice] Starting output thread!
+[13:29:57] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53213.
+[13:29:57] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53215.
+[13:29:57] [Thread-147/INFO]: [RaspberryJuice] Starting output thread!
+[13:29:57] [Thread-146/INFO]: [RaspberryJuice] Starting input thread
+[13:29:57] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53214.
+[13:29:57] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53216.
+[13:29:57] [Thread-148/INFO]: [RaspberryJuice] Starting input thread
+[13:29:57] [Thread-149/INFO]: [RaspberryJuice] Starting output thread!
+[13:29:57] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53217.
+[13:29:57] [Thread-150/INFO]: [RaspberryJuice] Starting input thread
+[13:29:57] [Thread-151/INFO]: [RaspberryJuice] Starting output thread!
+[13:29:57] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53215.
+[13:29:57] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53216.
+[13:29:57] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53218.
+[13:29:57] [Thread-153/INFO]: [RaspberryJuice] Starting output thread!
+[13:29:57] [Thread-152/INFO]: [RaspberryJuice] Starting input thread
+[13:29:57] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53219.
+[13:29:57] [Thread-154/INFO]: [RaspberryJuice] Starting input thread
+[13:29:57] [Thread-155/INFO]: [RaspberryJuice] Starting output thread!
+[13:29:57] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53217.
+[13:29:57] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53218.
+[13:29:58] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53220.
+[13:29:58] [Thread-157/INFO]: [RaspberryJuice] Starting output thread!
+[13:29:58] [Thread-156/INFO]: [RaspberryJuice] Starting input thread
+[13:29:58] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53219.
+[13:29:58] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53221.
+[13:29:58] [Thread-159/INFO]: [RaspberryJuice] Starting output thread!
+[13:29:58] [Thread-158/INFO]: [RaspberryJuice] Starting input thread
+[13:29:58] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53220.
+[13:29:59] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53222.
+[13:29:59] [Thread-160/INFO]: [RaspberryJuice] Starting input thread
+[13:29:59] [Thread-161/INFO]: [RaspberryJuice] Starting output thread!
+[13:29:59] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53223.
+[13:29:59] [Thread-162/INFO]: [RaspberryJuice] Starting input thread
+[13:29:59] [Thread-163/INFO]: [RaspberryJuice] Starting output thread!
+[13:29:59] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53221.
+[13:29:59] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53222.
+[13:29:59] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53224.
+[13:29:59] [Thread-165/INFO]: [RaspberryJuice] Starting output thread!
+[13:29:59] [Thread-164/INFO]: [RaspberryJuice] Starting input thread
+[13:29:59] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53223.
+[13:29:59] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53225.
+[13:29:59] [Thread-166/INFO]: [RaspberryJuice] Starting input thread
+[13:29:59] [Thread-167/INFO]: [RaspberryJuice] Starting output thread!
+[13:29:59] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53226.
+[13:29:59] [Thread-168/INFO]: [RaspberryJuice] Starting input thread
+[13:29:59] [Thread-169/INFO]: [RaspberryJuice] Starting output thread!
+[13:29:59] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53224.
+[13:29:59] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53225.
+[13:29:59] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53227.
+[13:29:59] [Thread-170/INFO]: [RaspberryJuice] Starting input thread
+[13:29:59] [Thread-171/INFO]: [RaspberryJuice] Starting output thread!
+[13:29:59] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53226.
+[13:29:59] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53228.
+[13:29:59] [Thread-172/INFO]: [RaspberryJuice] Starting input thread
+[13:29:59] [Thread-173/INFO]: [RaspberryJuice] Starting output thread!
+[13:29:59] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53229.
+[13:29:59] [Thread-174/INFO]: [RaspberryJuice] Starting input thread
+[13:29:59] [Thread-175/INFO]: [RaspberryJuice] Starting output thread!
+[13:29:59] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53227.
+[13:29:59] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53228.
+[13:29:59] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53230.
+[13:29:59] [Thread-176/INFO]: [RaspberryJuice] Starting input thread
+[13:29:59] [Thread-177/INFO]: [RaspberryJuice] Starting output thread!
+[13:29:59] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53231.
+[13:29:59] [Thread-179/INFO]: [RaspberryJuice] Starting output thread!
+[13:29:59] [Thread-178/INFO]: [RaspberryJuice] Starting input thread
+[13:29:59] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53229.
+[13:29:59] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53232.
+[13:29:59] [Thread-180/INFO]: [RaspberryJuice] Starting input thread
+[13:29:59] [Thread-181/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:00] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53230.
+[13:30:00] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53231.
+[13:30:00] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53233.
+[13:30:00] [Thread-182/INFO]: [RaspberryJuice] Starting input thread
+[13:30:00] [Thread-183/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:00] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53232.
+[13:30:00] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53234.
+[13:30:00] [Thread-185/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:00] [Thread-184/INFO]: [RaspberryJuice] Starting input thread
+[13:30:00] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53233.
+[13:30:00] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53235.
+[13:30:00] [Thread-186/INFO]: [RaspberryJuice] Starting input thread
+[13:30:00] [Thread-187/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:00] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53234.
+[13:30:00] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53236.
+[13:30:00] [Thread-188/INFO]: [RaspberryJuice] Starting input thread
+[13:30:00] [Thread-189/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:00] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53235.
+[13:30:01] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53237.
+[13:30:01] [Thread-191/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:01] [Thread-190/INFO]: [RaspberryJuice] Starting input thread
+[13:30:01] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53236.
+[13:30:01] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53238.
+[13:30:01] [Thread-192/INFO]: [RaspberryJuice] Starting input thread
+[13:30:01] [Thread-193/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:01] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53237.
+[13:30:01] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53239.
+[13:30:01] [Thread-195/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:01] [Thread-194/INFO]: [RaspberryJuice] Starting input thread
+[13:30:01] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53238.
+[13:30:01] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53240.
+[13:30:01] [Thread-197/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:01] [Thread-196/INFO]: [RaspberryJuice] Starting input thread
+[13:30:01] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53239.
+[13:30:01] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53241.
+[13:30:01] [Thread-198/INFO]: [RaspberryJuice] Starting input thread
+[13:30:01] [Thread-199/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:02] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53240.
+[13:30:02] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53242.
+[13:30:02] [Thread-200/INFO]: [RaspberryJuice] Starting input thread
+[13:30:02] [Thread-201/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:02] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53241.
+[13:30:02] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53243.
+[13:30:02] [Thread-203/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:02] [Thread-202/INFO]: [RaspberryJuice] Starting input thread
+[13:30:02] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53244.
+[13:30:02] [Thread-204/INFO]: [RaspberryJuice] Starting input thread
+[13:30:02] [Thread-205/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:02] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53242.
+[13:30:02] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53243.
+[13:30:03] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53245.
+[13:30:03] [Thread-206/INFO]: [RaspberryJuice] Starting input thread
+[13:30:03] [Thread-207/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:03] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53246.
+[13:30:03] [Thread-208/INFO]: [RaspberryJuice] Starting input thread
+[13:30:03] [Thread-209/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:03] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53244.
+[13:30:03] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53245.
+[13:30:03] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53248.
+[13:30:03] [Thread-210/INFO]: [RaspberryJuice] Starting input thread
+[13:30:03] [Thread-211/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:03] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53249.
+[13:30:03] [Thread-212/INFO]: [RaspberryJuice] Starting input thread
+[13:30:03] [Thread-213/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:03] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53246.
+[13:30:03] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53250.
+[13:30:03] [Thread-215/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:03] [Thread-214/INFO]: [RaspberryJuice] Starting input thread
+[13:30:03] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53248.
+[13:30:03] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53249.
+[13:30:03] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53251.
+[13:30:03] [Thread-216/INFO]: [RaspberryJuice] Starting input thread
+[13:30:03] [Thread-217/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:03] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53252.
+[13:30:03] [Thread-218/INFO]: [RaspberryJuice] Starting input thread
+[13:30:03] [Thread-219/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:03] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53250.
+[13:30:03] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53251.
+[13:30:03] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53253.
+[13:30:03] [Thread-221/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:03] [Thread-220/INFO]: [RaspberryJuice] Starting input thread
+[13:30:03] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53252.
+[13:30:03] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53254.
+[13:30:03] [Thread-222/INFO]: [RaspberryJuice] Starting input thread
+[13:30:03] [Thread-223/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:03] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53253.
+[13:30:03] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53255.
+[13:30:03] [Thread-224/INFO]: [RaspberryJuice] Starting input thread
+[13:30:03] [Thread-225/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:03] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53256.
+[13:30:03] [Thread-226/INFO]: [RaspberryJuice] Starting input thread
+[13:30:03] [Thread-227/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:04] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53254.
+[13:30:04] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53255.
+[13:30:04] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53257.
+[13:30:04] [Thread-228/INFO]: [RaspberryJuice] Starting input thread
+[13:30:04] [Thread-229/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:04] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53258.
+[13:30:04] [Thread-230/INFO]: [RaspberryJuice] Starting input thread
+[13:30:04] [Thread-231/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:04] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53256.
+[13:30:04] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53257.
+[13:30:04] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53259.
+[13:30:04] [Thread-232/INFO]: [RaspberryJuice] Starting input thread
+[13:30:04] [Thread-233/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:04] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53260.
+[13:30:04] [Thread-234/INFO]: [RaspberryJuice] Starting input thread
+[13:30:04] [Thread-235/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:04] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53258.
+[13:30:04] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53259.
+[13:30:04] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53261.
+[13:30:04] [Thread-236/INFO]: [RaspberryJuice] Starting input thread
+[13:30:04] [Thread-237/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:04] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53262.
+[13:30:04] [Thread-238/INFO]: [RaspberryJuice] Starting input thread
+[13:30:04] [Thread-239/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:04] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53260.
+[13:30:04] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53261.
+[13:30:04] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53263.
+[13:30:04] [Thread-240/INFO]: [RaspberryJuice] Starting input thread
+[13:30:04] [Thread-241/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:04] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53262.
+[13:30:04] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53264.
+[13:30:04] [Thread-243/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:04] [Thread-242/INFO]: [RaspberryJuice] Starting input thread
+[13:30:04] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53265.
+[13:30:04] [Thread-245/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:04] [Thread-244/INFO]: [RaspberryJuice] Starting input thread
+[13:30:04] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53263.
+[13:30:04] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53266.
+[13:30:04] [Thread-247/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:04] [Thread-246/INFO]: [RaspberryJuice] Starting input thread
+[13:30:04] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53264.
+[13:30:04] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53267.
+[13:30:04] [Thread-248/INFO]: [RaspberryJuice] Starting input thread
+[13:30:04] [Thread-249/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:05] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53265.
+[13:30:05] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53266.
+[13:30:05] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53268.
+[13:30:05] [Thread-250/INFO]: [RaspberryJuice] Starting input thread
+[13:30:05] [Thread-251/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:05] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53269.
+[13:30:05] [Thread-252/INFO]: [RaspberryJuice] Starting input thread
+[13:30:05] [Thread-253/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:05] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53267.
+[13:30:05] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53270.
+[13:30:05] [Thread-254/INFO]: [RaspberryJuice] Starting input thread
+[13:30:05] [Thread-255/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:05] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53268.
+[13:30:05] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53269.
+[13:30:05] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53271.
+[13:30:05] [Thread-256/INFO]: [RaspberryJuice] Starting input thread
+[13:30:05] [Thread-257/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:05] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53272.
+[13:30:05] [Thread-258/INFO]: [RaspberryJuice] Starting input thread
+[13:30:05] [Thread-259/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:05] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53270.
+[13:30:05] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53271.
+[13:30:05] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53273.
+[13:30:05] [Thread-260/INFO]: [RaspberryJuice] Starting input thread
+[13:30:05] [Thread-261/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:05] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53274.
+[13:30:05] [Thread-262/INFO]: [RaspberryJuice] Starting input thread
+[13:30:05] [Thread-263/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:05] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53272.
+[13:30:05] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53275.
+[13:30:05] [Thread-264/INFO]: [RaspberryJuice] Starting input thread
+[13:30:05] [Thread-265/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:05] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53273.
+[13:30:05] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53274.
+[13:30:05] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53276.
+[13:30:05] [Thread-266/INFO]: [RaspberryJuice] Starting input thread
+[13:30:05] [Thread-267/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:05] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53275.
+[13:30:05] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53277.
+[13:30:05] [Thread-268/INFO]: [RaspberryJuice] Starting input thread
+[13:30:05] [Thread-269/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:05] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53278.
+[13:30:05] [Thread-270/INFO]: [RaspberryJuice] Starting input thread
+[13:30:05] [Thread-271/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:06] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53276.
+[13:30:06] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53277.
+[13:30:06] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53279.
+[13:30:06] [Thread-272/INFO]: [RaspberryJuice] Starting input thread
+[13:30:06] [Thread-273/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:06] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53278.
+[13:30:06] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53280.
+[13:30:06] [Thread-274/INFO]: [RaspberryJuice] Starting input thread
+[13:30:06] [Thread-275/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:06] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53279.
+[13:30:06] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53281.
+[13:30:06] [Thread-276/INFO]: [RaspberryJuice] Starting input thread
+[13:30:06] [Thread-277/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:06] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53282.
+[13:30:06] [Thread-278/INFO]: [RaspberryJuice] Starting input thread
+[13:30:06] [Thread-279/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:06] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53280.
+[13:30:06] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53283.
+[13:30:06] [Thread-280/INFO]: [RaspberryJuice] Starting input thread
+[13:30:06] [Thread-281/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:06] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53281.
+[13:30:06] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53282.
+[13:30:06] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53284.
+[13:30:06] [Thread-282/INFO]: [RaspberryJuice] Starting input thread
+[13:30:06] [Thread-283/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:06] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53285.
+[13:30:06] [Thread-285/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:06] [Thread-284/INFO]: [RaspberryJuice] Starting input thread
+[13:30:06] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53283.
+[13:30:06] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53286.
+[13:30:06] [Thread-286/INFO]: [RaspberryJuice] Starting input thread
+[13:30:06] [Thread-287/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:06] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53284.
+[13:30:06] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53287.
+[13:30:06] [Thread-288/INFO]: [RaspberryJuice] Starting input thread
+[13:30:06] [Thread-289/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:06] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53285.
+[13:30:06] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53286.
+[13:30:06] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53288.
+[13:30:06] [Thread-290/INFO]: [RaspberryJuice] Starting input thread
+[13:30:06] [Thread-291/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:06] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53289.
+[13:30:06] [Thread-292/INFO]: [RaspberryJuice] Starting input thread
+[13:30:06] [Thread-293/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:07] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53287.
+[13:30:07] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53288.
+[13:30:07] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53290.
+[13:30:07] [Thread-294/INFO]: [RaspberryJuice] Starting input thread
+[13:30:07] [Thread-295/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:07] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53291.
+[13:30:07] [Thread-297/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:07] [Thread-296/INFO]: [RaspberryJuice] Starting input thread
+[13:30:07] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53289.
+[13:30:07] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53290.
+[13:30:07] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53292.
+[13:30:07] [Thread-298/INFO]: [RaspberryJuice] Starting input thread
+[13:30:07] [Thread-299/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:07] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53293.
+[13:30:07] [Thread-300/INFO]: [RaspberryJuice] Starting input thread
+[13:30:07] [Thread-301/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:07] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53291.
+[13:30:07] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53294.
+[13:30:07] [Thread-302/INFO]: [RaspberryJuice] Starting input thread
+[13:30:07] [Thread-303/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:07] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53292.
+[13:30:07] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53293.
+[13:30:07] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53295.
+[13:30:07] [Thread-304/INFO]: [RaspberryJuice] Starting input thread
+[13:30:07] [Thread-305/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:07] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53294.
+[13:30:07] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53296.
+[13:30:07] [Thread-306/INFO]: [RaspberryJuice] Starting input thread
+[13:30:07] [Thread-307/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:07] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53297.
+[13:30:07] [Thread-308/INFO]: [RaspberryJuice] Starting input thread
+[13:30:07] [Thread-309/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:07] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53295.
+[13:30:07] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53296.
+[13:30:07] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53298.
+[13:30:07] [Thread-310/INFO]: [RaspberryJuice] Starting input thread
+[13:30:07] [Thread-311/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:07] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53297.
+[13:30:10] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53299.
+[13:30:10] [Thread-312/INFO]: [RaspberryJuice] Starting input thread
+[13:30:10] [Thread-313/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:10] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53298.
+[13:30:10] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53300.
+[13:30:10] [Thread-314/INFO]: [RaspberryJuice] Starting input thread
+[13:30:10] [Thread-315/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:10] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53299.
+[13:30:10] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53301.
+[13:30:10] [Thread-317/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:10] [Thread-316/INFO]: [RaspberryJuice] Starting input thread
+[13:30:10] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53302.
+[13:30:10] [Thread-318/INFO]: [RaspberryJuice] Starting input thread
+[13:30:10] [Thread-319/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:10] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53300.
+[13:30:10] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53301.
+[13:30:10] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53303.
+[13:30:10] [Thread-321/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:10] [Thread-320/INFO]: [RaspberryJuice] Starting input thread
+[13:30:11] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53304.
+[13:30:11] [Thread-322/INFO]: [RaspberryJuice] Starting input thread
+[13:30:11] [Thread-323/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:11] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53302.
+[13:30:11] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53303.
+[13:30:11] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53305.
+[13:30:11] [Thread-324/INFO]: [RaspberryJuice] Starting input thread
+[13:30:11] [Thread-325/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:11] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53306.
+[13:30:11] [Thread-326/INFO]: [RaspberryJuice] Starting input thread
+[13:30:11] [Thread-327/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:11] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53304.
+[13:30:11] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53307.
+[13:30:11] [Thread-328/INFO]: [RaspberryJuice] Starting input thread
+[13:30:11] [Thread-329/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:11] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53305.
+[13:30:11] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53308.
+[13:30:11] [Thread-330/INFO]: [RaspberryJuice] Starting input thread
+[13:30:11] [Thread-331/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:11] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53306.
+[13:30:11] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53307.
+[13:30:11] [Thread-333/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:11] [Thread-332/INFO]: [RaspberryJuice] Starting input thread
+[13:30:11] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53309.
+[13:30:11] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53308.
+[13:30:11] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53310.
+[13:30:11] [Thread-335/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:11] [Thread-334/INFO]: [RaspberryJuice] Starting input thread
+[13:30:11] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53309.
+[13:30:11] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53311.
+[13:30:11] [Thread-336/INFO]: [RaspberryJuice] Starting input thread
+[13:30:11] [Thread-337/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:11] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53312.
+[13:30:11] [Thread-339/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:11] [Thread-338/INFO]: [RaspberryJuice] Starting input thread
+[13:30:11] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53310.
+[13:30:11] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53311.
+[13:30:11] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53313.
+[13:30:11] [Thread-341/INFO]: [RaspberryJuice] Starting output thread!
+[13:30:11] [Thread-340/INFO]: [RaspberryJuice] Starting input thread
+[13:30:11] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53312.
+[13:32:18] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53210.
+[13:32:18] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53313.
+[13:32:20] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53318.
+[13:32:20] [Thread-342/INFO]: [RaspberryJuice] Starting input thread
+[13:32:20] [Thread-343/INFO]: [RaspberryJuice] Starting output thread!
+[13:32:23] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53319.
+[13:32:23] [Thread-344/INFO]: [RaspberryJuice] Starting input thread
+[13:32:23] [Thread-345/INFO]: [RaspberryJuice] Starting output thread!
+[13:32:23] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53320.
+[13:32:23] [Thread-346/INFO]: [RaspberryJuice] Starting input thread
+[13:32:23] [Thread-347/INFO]: [RaspberryJuice] Starting output thread!
+[13:32:24] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53319.
+[13:32:48] [Server thread/INFO]: TheTaxary issued server command: /toggledownfall
+[13:32:48] [Server thread/INFO]: [TheTaxary: Toggled downfall]
+[13:33:16] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53318.
+[13:33:16] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53320.
+[13:33:18] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53322.
+[13:33:18] [Thread-348/INFO]: [RaspberryJuice] Starting input thread
+[13:33:18] [Thread-349/INFO]: [RaspberryJuice] Starting output thread!
+[13:33:21] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53323.
+[13:33:21] [Thread-350/INFO]: [RaspberryJuice] Starting input thread
+[13:33:21] [Thread-351/INFO]: [RaspberryJuice] Starting output thread!
+[13:33:21] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53324.
+[13:33:21] [Thread-353/INFO]: [RaspberryJuice] Starting output thread!
+[13:33:21] [Thread-352/INFO]: [RaspberryJuice] Starting input thread
+[13:33:21] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53323.
+[13:33:30] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53325.
+[13:33:30] [Thread-354/INFO]: [RaspberryJuice] Starting input thread
+[13:33:30] [Thread-355/INFO]: [RaspberryJuice] Starting output thread!
+[13:33:31] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53324.
+[13:33:31] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53326.
+[13:33:31] [Thread-356/INFO]: [RaspberryJuice] Starting input thread
+[13:33:31] [Thread-357/INFO]: [RaspberryJuice] Starting output thread!
+[13:33:31] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53325.
+[13:34:47] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53322.
+[13:34:47] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53326.
+[13:34:48] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53341.
+[13:34:48] [Thread-358/INFO]: [RaspberryJuice] Starting input thread
+[13:34:48] [Thread-359/INFO]: [RaspberryJuice] Starting output thread!
+[13:34:52] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53343.
+[13:34:52] [Thread-360/INFO]: [RaspberryJuice] Starting input thread
+[13:34:52] [Thread-361/INFO]: [RaspberryJuice] Starting output thread!
+[13:34:52] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53341.
+[13:34:52] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53343.
+[13:42:27] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53375.
+[13:42:27] [Thread-362/INFO]: [RaspberryJuice] Starting input thread
+[13:42:27] [Thread-363/INFO]: [RaspberryJuice] Starting output thread!
+[13:42:32] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53376.
+[13:42:32] [Thread-364/INFO]: [RaspberryJuice] Starting input thread
+[13:42:32] [Thread-365/INFO]: [RaspberryJuice] Starting output thread!
+[13:42:32] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53375.
+[13:42:32] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53376.
+[13:43:50] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53379.
+[13:43:50] [Thread-367/INFO]: [RaspberryJuice] Starting output thread!
+[13:43:50] [Thread-366/INFO]: [RaspberryJuice] Starting input thread
+[13:43:53] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53380.
+[13:43:53] [Thread-368/INFO]: [RaspberryJuice] Starting input thread
+[13:43:53] [Thread-369/INFO]: [RaspberryJuice] Starting output thread!
+[13:43:53] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53379.
+[13:43:53] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53380.
+[13:51:12] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53414.
+[13:51:12] [Thread-370/INFO]: [RaspberryJuice] Starting input thread
+[13:51:12] [Thread-371/INFO]: [RaspberryJuice] Starting output thread!
+[13:51:16] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53415.
+[13:51:16] [Thread-372/INFO]: [RaspberryJuice] Starting input thread
+[13:51:16] [Thread-373/INFO]: [RaspberryJuice] Starting output thread!
+[13:51:16] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53414.
+[13:51:16] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53415.
+[13:51:40] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53416.
+[13:51:40] [Thread-375/INFO]: [RaspberryJuice] Starting output thread!
+[13:51:40] [Thread-374/INFO]: [RaspberryJuice] Starting input thread
+[13:51:43] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53417.
+[13:51:43] [Thread-376/INFO]: [RaspberryJuice] Starting input thread
+[13:51:43] [Thread-377/INFO]: [RaspberryJuice] Starting output thread!
+[13:51:43] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53418.
+[13:51:43] [Thread-378/INFO]: [RaspberryJuice] Starting input thread
+[13:51:43] [Thread-379/INFO]: [RaspberryJuice] Starting output thread!
+[13:51:59] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53416.
+[13:51:59] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53417.
+[13:51:59] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53418.
+[13:52:00] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53419.
+[13:52:00] [Thread-380/INFO]: [RaspberryJuice] Starting input thread
+[13:52:00] [Thread-381/INFO]: [RaspberryJuice] Starting output thread!
+[13:52:03] [Thread-382/INFO]: [RaspberryJuice] Starting input thread
+[13:52:03] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53420.
+[13:52:03] [Thread-383/INFO]: [RaspberryJuice] Starting output thread!
+[13:52:03] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53419.
+[13:52:03] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53420.
+[13:52:31] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53421.
+[13:52:31] [Thread-384/INFO]: [RaspberryJuice] Starting input thread
+[13:52:31] [Thread-385/INFO]: [RaspberryJuice] Starting output thread!
+[13:52:33] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53422.
+[13:52:33] [Thread-387/INFO]: [RaspberryJuice] Starting output thread!
+[13:52:33] [Thread-386/INFO]: [RaspberryJuice] Starting input thread
+[13:52:34] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53421.
+[13:52:34] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53422.
+[13:53:47] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53424.
+[13:53:47] [Thread-389/INFO]: [RaspberryJuice] Starting output thread!
+[13:53:47] [Thread-388/INFO]: [RaspberryJuice] Starting input thread
+[13:53:54] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53425.
+[13:53:54] [Thread-390/INFO]: [RaspberryJuice] Starting input thread
+[13:53:54] [Thread-391/INFO]: [RaspberryJuice] Starting output thread!
+[13:53:54] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53426.
+[13:53:54] [Thread-392/INFO]: [RaspberryJuice] Starting input thread
+[13:53:54] [Thread-393/INFO]: [RaspberryJuice] Starting output thread!
+[13:55:03] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53424.
+[13:55:03] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53425.
+[13:55:03] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53426.
+[13:55:04] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53428.
+[13:55:04] [Thread-394/INFO]: [RaspberryJuice] Starting input thread
+[13:55:04] [Thread-395/INFO]: [RaspberryJuice] Starting output thread!
+[13:55:08] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53429.
+[13:55:08] [Thread-396/INFO]: [RaspberryJuice] Starting input thread
+[13:55:08] [Thread-397/INFO]: [RaspberryJuice] Starting output thread!
+[13:55:08] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53430.
+[13:55:08] [Thread-398/INFO]: [RaspberryJuice] Starting input thread
+[13:55:08] [Thread-399/INFO]: [RaspberryJuice] Starting output thread!
+[13:55:08] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53431.
+[13:55:08] [Thread-400/INFO]: [RaspberryJuice] Starting input thread
+[13:55:08] [Thread-401/INFO]: [RaspberryJuice] Starting output thread!
+[13:55:08] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53432.
+[13:55:08] [Thread-402/INFO]: [RaspberryJuice] Starting input thread
+[13:55:08] [Thread-403/INFO]: [RaspberryJuice] Starting output thread!
+[13:55:08] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53429.
+[13:55:08] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53430.
+[13:55:11] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53433.
+[13:55:11] [Thread-405/INFO]: [RaspberryJuice] Starting output thread!
+[13:55:11] [Thread-404/INFO]: [RaspberryJuice] Starting input thread
+[13:55:11] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53434.
+[13:55:11] [Thread-406/INFO]: [RaspberryJuice] Starting input thread
+[13:55:11] [Thread-407/INFO]: [RaspberryJuice] Starting output thread!
+[13:55:11] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53431.
+[13:55:11] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53432.
+[13:55:16] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53435.
+[13:55:16] [Thread-409/INFO]: [RaspberryJuice] Starting output thread!
+[13:55:16] [Thread-408/INFO]: [RaspberryJuice] Starting input thread
+[13:55:16] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53436.
+[13:55:16] [Thread-410/INFO]: [RaspberryJuice] Starting input thread
+[13:55:16] [Thread-411/INFO]: [RaspberryJuice] Starting output thread!
+[13:55:16] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53433.
+[13:55:16] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53434.
+[13:55:56] [Server thread/INFO]: TheTaxary issued server command: /toggledownfall
+[13:55:56] [Server thread/INFO]: [TheTaxary: Toggled downfall]
+[13:57:03] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53428.
+[13:57:03] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53435.
+[13:57:03] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53436.
+[13:57:04] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53445.
+[13:57:04] [Thread-412/INFO]: [RaspberryJuice] Starting input thread
+[13:57:04] [Thread-413/INFO]: [RaspberryJuice] Starting output thread!
+[13:57:25] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53446.
+[13:57:25] [Thread-414/INFO]: [RaspberryJuice] Starting input thread
+[13:57:25] [Thread-415/INFO]: [RaspberryJuice] Starting output thread!
+[13:57:25] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53447.
+[13:57:25] [Thread-416/INFO]: [RaspberryJuice] Starting input thread
+[13:57:25] [Thread-417/INFO]: [RaspberryJuice] Starting output thread!
+[13:57:25] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53446.
+[13:57:41] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53445.
+[13:57:41] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53447.
+[13:57:45] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53448.
+[13:57:45] [Thread-418/INFO]: [RaspberryJuice] Starting input thread
+[13:57:45] [Thread-419/INFO]: [RaspberryJuice] Starting output thread!
+[13:57:49] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53450.
+[13:57:49] [Thread-421/INFO]: [RaspberryJuice] Starting output thread!
+[13:57:49] [Thread-420/INFO]: [RaspberryJuice] Starting input thread
+[13:57:49] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53451.
+[13:57:49] [Thread-422/INFO]: [RaspberryJuice] Starting input thread
+[13:57:49] [Thread-423/INFO]: [RaspberryJuice] Starting output thread!
+[13:57:49] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53450.
+[13:57:50] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53452.
+[13:57:50] [Thread-425/INFO]: [RaspberryJuice] Starting output thread!
+[13:57:50] [Thread-424/INFO]: [RaspberryJuice] Starting input thread
+[13:57:51] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53451.
+[13:57:51] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53453.
+[13:57:51] [Thread-426/INFO]: [RaspberryJuice] Starting input thread
+[13:57:51] [Thread-427/INFO]: [RaspberryJuice] Starting output thread!
+[13:57:51] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53452.
+[13:58:15] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53448.
+[13:58:15] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53453.
+[13:58:16] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53454.
+[13:58:16] [Thread-428/INFO]: [RaspberryJuice] Starting input thread
+[13:58:16] [Thread-429/INFO]: [RaspberryJuice] Starting output thread!
+[13:58:20] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53455.
+[13:58:20] [Thread-430/INFO]: [RaspberryJuice] Starting input thread
+[13:58:20] [Thread-431/INFO]: [RaspberryJuice] Starting output thread!
+[13:58:20] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53456.
+[13:58:20] [Thread-433/INFO]: [RaspberryJuice] Starting output thread!
+[13:58:20] [Thread-432/INFO]: [RaspberryJuice] Starting input thread
+[13:58:21] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53457.
+[13:58:21] [Thread-435/INFO]: [RaspberryJuice] Starting output thread!
+[13:58:21] [Thread-434/INFO]: [RaspberryJuice] Starting input thread
+[13:58:21] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53458.
+[13:58:21] [Thread-436/INFO]: [RaspberryJuice] Starting input thread
+[13:58:21] [Thread-437/INFO]: [RaspberryJuice] Starting output thread!
+[13:58:21] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53455.
+[13:58:21] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53456.
+[14:11:11] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53454.
+[14:11:11] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53457.
+[14:11:11] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53458.
+[14:11:12] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53501.
+[14:11:12] [Thread-438/INFO]: [RaspberryJuice] Starting input thread
+[14:11:12] [Thread-439/INFO]: [RaspberryJuice] Starting output thread!
+[14:11:17] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53502.
+[14:11:17] [Thread-440/INFO]: [RaspberryJuice] Starting input thread
+[14:11:17] [Thread-441/INFO]: [RaspberryJuice] Starting output thread!
+[14:11:17] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53503.
+[14:11:17] [Thread-442/INFO]: [RaspberryJuice] Starting input thread
+[14:11:17] [Thread-443/INFO]: [RaspberryJuice] Starting output thread!
+[14:11:17] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53504.
+[14:11:17] [Thread-445/INFO]: [RaspberryJuice] Starting output thread!
+[14:11:17] [Thread-444/INFO]: [RaspberryJuice] Starting input thread
+[14:11:17] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53505.
+[14:11:17] [Thread-446/INFO]: [RaspberryJuice] Starting input thread
+[14:11:17] [Thread-447/INFO]: [RaspberryJuice] Starting output thread!
+[14:11:17] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53502.
+[14:11:17] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53503.
+[14:13:19] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53501.
+[14:13:19] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53504.
+[14:13:19] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53505.
+[14:13:20] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53507.
+[14:13:20] [Thread-448/INFO]: [RaspberryJuice] Starting input thread
+[14:13:20] [Thread-449/INFO]: [RaspberryJuice] Starting output thread!
+[14:13:22] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53508.
+[14:13:22] [Thread-450/INFO]: [RaspberryJuice] Starting input thread
+[14:13:22] [Thread-451/INFO]: [RaspberryJuice] Starting output thread!
+[14:13:22] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53509.
+[14:13:22] [Thread-453/INFO]: [RaspberryJuice] Starting output thread!
+[14:13:22] [Thread-452/INFO]: [RaspberryJuice] Starting input thread
+[14:13:26] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53510.
+[14:13:26] [Thread-454/INFO]: [RaspberryJuice] Starting input thread
+[14:13:26] [Thread-455/INFO]: [RaspberryJuice] Starting output thread!
+[14:13:27] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53511.
+[14:13:27] [Thread-456/INFO]: [RaspberryJuice] Starting input thread
+[14:13:27] [Thread-457/INFO]: [RaspberryJuice] Starting output thread!
+[14:13:27] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53508.
+[14:13:27] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53509.
+[14:13:28] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53512.
+[14:13:28] [Thread-458/INFO]: [RaspberryJuice] Starting input thread
+[14:13:28] [Thread-459/INFO]: [RaspberryJuice] Starting output thread!
+[14:13:28] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53513.
+[14:13:28] [Thread-461/INFO]: [RaspberryJuice] Starting output thread!
+[14:13:28] [Thread-460/INFO]: [RaspberryJuice] Starting input thread
+[14:13:28] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53510.
+[14:13:28] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53511.
+[14:13:28] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53514.
+[14:13:28] [Thread-463/INFO]: [RaspberryJuice] Starting output thread!
+[14:13:28] [Thread-462/INFO]: [RaspberryJuice] Starting input thread
+[14:13:28] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53515.
+[14:13:28] [Thread-464/INFO]: [RaspberryJuice] Starting input thread
+[14:13:28] [Thread-465/INFO]: [RaspberryJuice] Starting output thread!
+[14:13:28] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53512.
+[14:13:28] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53516.
+[14:13:28] [Thread-466/INFO]: [RaspberryJuice] Starting input thread
+[14:13:28] [Thread-467/INFO]: [RaspberryJuice] Starting output thread!
+[14:13:28] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53513.
+[14:13:28] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53517.
+[14:13:28] [Thread-468/INFO]: [RaspberryJuice] Starting input thread
+[14:13:28] [Thread-469/INFO]: [RaspberryJuice] Starting output thread!
+[14:13:28] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53514.
+[14:13:28] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53518.
+[14:13:28] [Thread-470/INFO]: [RaspberryJuice] Starting input thread
+[14:13:28] [Thread-471/INFO]: [RaspberryJuice] Starting output thread!
+[14:13:28] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53515.
+[14:13:28] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53519.
+[14:13:28] [Thread-472/INFO]: [RaspberryJuice] Starting input thread
+[14:13:28] [Thread-473/INFO]: [RaspberryJuice] Starting output thread!
+[14:13:28] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53516.
+[14:13:28] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53517.
+[14:13:28] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53520.
+[14:13:28] [Thread-474/INFO]: [RaspberryJuice] Starting input thread
+[14:13:28] [Thread-475/INFO]: [RaspberryJuice] Starting output thread!
+[14:13:29] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53521.
+[14:13:29] [Thread-476/INFO]: [RaspberryJuice] Starting input thread
+[14:13:29] [Thread-477/INFO]: [RaspberryJuice] Starting output thread!
+[14:13:29] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53518.
+[14:13:29] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53519.
+[14:13:30] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53522.
+[14:13:30] [Thread-479/INFO]: [RaspberryJuice] Starting output thread!
+[14:13:30] [Thread-478/INFO]: [RaspberryJuice] Starting input thread
+[14:13:30] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53523.
+[14:13:30] [Thread-480/INFO]: [RaspberryJuice] Starting input thread
+[14:13:30] [Thread-481/INFO]: [RaspberryJuice] Starting output thread!
+[14:13:30] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53520.
+[14:13:30] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53521.
+[14:13:30] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53524.
+[14:13:30] [Thread-482/INFO]: [RaspberryJuice] Starting input thread
+[14:13:30] [Thread-483/INFO]: [RaspberryJuice] Starting output thread!
+[14:13:30] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53525.
+[14:13:30] [Thread-484/INFO]: [RaspberryJuice] Starting input thread
+[14:13:30] [Thread-485/INFO]: [RaspberryJuice] Starting output thread!
+[14:13:30] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53522.
+[14:13:30] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53526.
+[14:13:30] [Thread-486/INFO]: [RaspberryJuice] Starting input thread
+[14:13:30] [Thread-487/INFO]: [RaspberryJuice] Starting output thread!
+[14:13:31] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53523.
+[14:13:31] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53527.
+[14:13:31] [Thread-488/INFO]: [RaspberryJuice] Starting input thread
+[14:13:31] [Thread-489/INFO]: [RaspberryJuice] Starting output thread!
+[14:13:31] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.11 generated an exception
 java.util.ConcurrentModificationException: null
 	at java.util.ArrayList$Itr.checkForComodification(ArrayList.java:1013) ~[?:?]
-	at java.util.ArrayList$Itr.remove(ArrayList.java:981) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:204) ~[?:?]
+	at java.util.ArrayList$Itr.next(ArrayList.java:967) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:201) ~[?:?]
 	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:71) ~[spigot.jar:git-Spigot-596221b-9a1fc1e]
 	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:353) [spigot.jar:git-Spigot-596221b-9a1fc1e]
 	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:738) [spigot.jar:git-Spigot-596221b-9a1fc1e]
@@ -154,387 +1091,671 @@ java.util.ConcurrentModificationException: null
 	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:678) [spigot.jar:git-Spigot-596221b-9a1fc1e]
 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:576) [spigot.jar:git-Spigot-596221b-9a1fc1e]
 	at java.lang.Thread.run(Thread.java:833) [?:?]
-[13:30:40] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59542.
-[13:30:40] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59559.
-[13:31:47] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59565.
-[13:31:47] [Thread-24/INFO]: [RaspberryJuice] Starting input thread
-[13:31:47] [Thread-25/INFO]: [RaspberryJuice] Starting output thread!
-[13:31:47] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59560.
-[13:31:47] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59566.
-[13:31:47] [Thread-26/INFO]: [RaspberryJuice] Starting input thread
-[13:31:47] [Thread-27/INFO]: [RaspberryJuice] Starting output thread!
-[13:31:47] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59565.
-[13:32:21] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59568.
-[13:32:21] [Thread-28/INFO]: [RaspberryJuice] Starting input thread
-[13:32:21] [Thread-29/INFO]: [RaspberryJuice] Starting output thread!
-[13:32:22] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59566.
-[13:32:22] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59569.
-[13:32:22] [Thread-30/INFO]: [RaspberryJuice] Starting input thread
-[13:32:22] [Thread-31/INFO]: [RaspberryJuice] Starting output thread!
-[13:32:22] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59568.
-[13:34:44] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59540.
-[13:34:44] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59569.
-[13:35:11] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59584.
-[13:35:11] [Thread-32/INFO]: [RaspberryJuice] Starting input thread
-[13:35:11] [Thread-33/INFO]: [RaspberryJuice] Starting output thread!
-[13:35:16] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59585.
-[13:35:16] [Thread-34/INFO]: [RaspberryJuice] Starting input thread
-[13:35:16] [Thread-35/INFO]: [RaspberryJuice] Starting output thread!
-[13:35:16] [Thread-37/INFO]: [RaspberryJuice] Starting output thread!
-[13:35:16] [Thread-36/INFO]: [RaspberryJuice] Starting input thread
-[13:35:16] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59586.
-[13:35:16] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59585.
-[13:35:37] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59584.
-[13:35:37] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59586.
-[13:35:38] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59587.
-[13:35:38] [Thread-39/INFO]: [RaspberryJuice] Starting output thread!
-[13:35:38] [Thread-38/INFO]: [RaspberryJuice] Starting input thread
-[13:35:42] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59588.
-[13:35:42] [Thread-41/INFO]: [RaspberryJuice] Starting output thread!
-[13:35:42] [Thread-40/INFO]: [RaspberryJuice] Starting input thread
-[13:35:42] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59589.
-[13:35:42] [Thread-43/INFO]: [RaspberryJuice] Starting output thread!
-[13:35:42] [Thread-42/INFO]: [RaspberryJuice] Starting input thread
-[13:35:43] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59588.
-[13:36:00] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59587.
-[13:36:00] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59589.
-[13:36:01] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59590.
-[13:36:01] [Thread-44/INFO]: [RaspberryJuice] Starting input thread
-[13:36:01] [Thread-45/INFO]: [RaspberryJuice] Starting output thread!
-[13:36:05] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59591.
-[13:36:05] [Thread-47/INFO]: [RaspberryJuice] Starting output thread!
-[13:36:05] [Thread-46/INFO]: [RaspberryJuice] Starting input thread
-[13:36:05] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59592.
-[13:36:05] [Thread-48/INFO]: [RaspberryJuice] Starting input thread
-[13:36:05] [Thread-49/INFO]: [RaspberryJuice] Starting output thread!
-[13:36:06] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59591.
-[13:36:27] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59593.
-[13:36:27] [Thread-50/INFO]: [RaspberryJuice] Starting input thread
-[13:36:27] [Thread-51/INFO]: [RaspberryJuice] Starting output thread!
-[13:36:27] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59592.
-[13:36:27] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59594.
-[13:36:27] [Thread-52/INFO]: [RaspberryJuice] Starting input thread
-[13:36:27] [Thread-53/INFO]: [RaspberryJuice] Starting output thread!
-[13:36:27] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59593.
-[13:36:29] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59595.
-[13:36:29] [Thread-55/INFO]: [RaspberryJuice] Starting output thread!
-[13:36:29] [Thread-54/INFO]: [RaspberryJuice] Starting input thread
-[13:36:29] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59594.
-[13:36:29] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59596.
-[13:36:29] [Thread-57/INFO]: [RaspberryJuice] Starting output thread!
-[13:36:29] [Thread-56/INFO]: [RaspberryJuice] Starting input thread
-[13:36:29] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59595.
-[13:36:30] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59597.
-[13:36:30] [Thread-58/INFO]: [RaspberryJuice] Starting input thread
-[13:36:30] [Thread-59/INFO]: [RaspberryJuice] Starting output thread!
-[13:36:30] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59596.
-[13:36:30] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59598.
-[13:36:30] [Thread-61/INFO]: [RaspberryJuice] Starting output thread!
-[13:36:30] [Thread-60/INFO]: [RaspberryJuice] Starting input thread
-[13:36:30] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59597.
-[13:36:31] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59599.
-[13:36:31] [Thread-63/INFO]: [RaspberryJuice] Starting output thread!
-[13:36:31] [Thread-62/INFO]: [RaspberryJuice] Starting input thread
-[13:36:31] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59598.
-[13:36:32] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59600.
-[13:36:32] [Thread-64/INFO]: [RaspberryJuice] Starting input thread
-[13:36:32] [Thread-65/INFO]: [RaspberryJuice] Starting output thread!
-[13:36:32] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59599.
-[13:36:33] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59601.
-[13:36:33] [Thread-67/INFO]: [RaspberryJuice] Starting output thread!
-[13:36:33] [Thread-66/INFO]: [RaspberryJuice] Starting input thread
-[13:36:33] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59600.
-[13:36:33] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59602.
-[13:36:33] [Thread-68/INFO]: [RaspberryJuice] Starting input thread
-[13:36:33] [Thread-69/INFO]: [RaspberryJuice] Starting output thread!
-[13:36:33] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59601.
-[13:36:35] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59603.
-[13:36:35] [Thread-71/INFO]: [RaspberryJuice] Starting output thread!
-[13:36:35] [Thread-70/INFO]: [RaspberryJuice] Starting input thread
-[13:36:35] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59604.
-[13:36:35] [Thread-72/INFO]: [RaspberryJuice] Starting input thread
-[13:36:35] [Thread-73/INFO]: [RaspberryJuice] Starting output thread!
-[13:36:35] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59602.
-[13:36:35] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59603.
-[13:36:38] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59605.
-[13:36:38] [Thread-75/INFO]: [RaspberryJuice] Starting output thread!
-[13:36:38] [Thread-74/INFO]: [RaspberryJuice] Starting input thread
-[13:36:38] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59604.
-[13:36:39] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59606.
-[13:36:39] [Thread-76/INFO]: [RaspberryJuice] Starting input thread
-[13:36:39] [Thread-77/INFO]: [RaspberryJuice] Starting output thread!
-[13:36:39] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59605.
-[13:36:39] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59607.
-[13:36:39] [Thread-78/INFO]: [RaspberryJuice] Starting input thread
-[13:36:39] [Thread-79/INFO]: [RaspberryJuice] Starting output thread!
-[13:36:39] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59606.
-[13:36:40] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59608.
-[13:36:40] [Thread-81/INFO]: [RaspberryJuice] Starting output thread!
-[13:36:40] [Thread-80/INFO]: [RaspberryJuice] Starting input thread
-[13:36:40] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59609.
-[13:36:40] [Thread-82/INFO]: [RaspberryJuice] Starting input thread
-[13:36:40] [Thread-83/INFO]: [RaspberryJuice] Starting output thread!
-[13:36:40] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59607.
-[13:36:40] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59608.
-[13:36:41] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59610.
-[13:36:41] [Thread-85/INFO]: [RaspberryJuice] Starting output thread!
-[13:36:41] [Thread-84/INFO]: [RaspberryJuice] Starting input thread
-[13:36:41] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59609.
-[13:36:41] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59611.
-[13:36:41] [Thread-87/INFO]: [RaspberryJuice] Starting output thread!
-[13:36:41] [Thread-86/INFO]: [RaspberryJuice] Starting input thread
-[13:36:42] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59610.
-[13:36:42] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59612.
-[13:36:42] [Thread-88/INFO]: [RaspberryJuice] Starting input thread
-[13:36:42] [Thread-89/INFO]: [RaspberryJuice] Starting output thread!
-[13:36:42] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59613.
-[13:36:42] [Thread-90/INFO]: [RaspberryJuice] Starting input thread
-[13:36:42] [Thread-91/INFO]: [RaspberryJuice] Starting output thread!
-[13:36:42] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59611.
-[13:36:42] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59614.
-[13:36:42] [Thread-92/INFO]: [RaspberryJuice] Starting input thread
-[13:36:42] [Thread-93/INFO]: [RaspberryJuice] Starting output thread!
-[13:36:42] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59612.
-[13:36:42] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59615.
-[13:36:42] [Thread-94/INFO]: [RaspberryJuice] Starting input thread
-[13:36:42] [Thread-95/INFO]: [RaspberryJuice] Starting output thread!
-[13:36:42] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59613.
-[13:36:42] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59616.
-[13:36:42] [Thread-96/INFO]: [RaspberryJuice] Starting input thread
-[13:36:42] [Thread-97/INFO]: [RaspberryJuice] Starting output thread!
-[13:36:42] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59614.
-[13:36:42] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59615.
-[13:36:44] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59617.
-[13:36:44] [Thread-99/INFO]: [RaspberryJuice] Starting output thread!
-[13:36:44] [Thread-98/INFO]: [RaspberryJuice] Starting input thread
-[13:36:45] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59616.
-[13:36:45] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59618.
-[13:36:45] [Thread-100/INFO]: [RaspberryJuice] Starting input thread
-[13:36:45] [Thread-101/INFO]: [RaspberryJuice] Starting output thread!
-[13:36:45] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59617.
-[13:36:49] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59619.
-[13:36:49] [Thread-102/INFO]: [RaspberryJuice] Starting input thread
-[13:36:49] [Thread-103/INFO]: [RaspberryJuice] Starting output thread!
-[13:36:49] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59620.
-[13:36:49] [Thread-105/INFO]: [RaspberryJuice] Starting output thread!
-[13:36:49] [Thread-104/INFO]: [RaspberryJuice] Starting input thread
-[13:36:49] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59618.
-[13:36:49] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59619.
-[13:36:50] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59621.
-[13:36:50] [Thread-106/INFO]: [RaspberryJuice] Starting input thread
-[13:36:50] [Thread-107/INFO]: [RaspberryJuice] Starting output thread!
-[13:36:50] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59620.
-[13:36:50] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59622.
-[13:36:50] [Thread-109/INFO]: [RaspberryJuice] Starting output thread!
-[13:36:50] [Thread-108/INFO]: [RaspberryJuice] Starting input thread
-[13:36:50] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59621.
-[13:36:51] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59623.
-[13:36:51] [Thread-111/INFO]: [RaspberryJuice] Starting output thread!
-[13:36:51] [Thread-110/INFO]: [RaspberryJuice] Starting input thread
-[13:36:51] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59622.
-[13:36:51] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59624.
-[13:36:51] [Thread-112/INFO]: [RaspberryJuice] Starting input thread
-[13:36:51] [Thread-113/INFO]: [RaspberryJuice] Starting output thread!
-[13:36:51] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59623.
-[13:36:52] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59625.
-[13:36:52] [Thread-114/INFO]: [RaspberryJuice] Starting input thread
-[13:36:52] [Thread-115/INFO]: [RaspberryJuice] Starting output thread!
-[13:36:52] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59624.
-[13:36:52] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59626.
-[13:36:52] [Thread-116/INFO]: [RaspberryJuice] Starting input thread
-[13:36:52] [Thread-117/INFO]: [RaspberryJuice] Starting output thread!
-[13:36:52] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59625.
-[13:36:59] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59590.
-[13:36:59] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59626.
-[13:37:02] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59628.
-[13:37:02] [Thread-118/INFO]: [RaspberryJuice] Starting input thread
-[13:37:02] [Thread-119/INFO]: [RaspberryJuice] Starting output thread!
-[13:37:07] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59629.
-[13:37:07] [Thread-120/INFO]: [RaspberryJuice] Starting input thread
-[13:37:07] [Thread-121/INFO]: [RaspberryJuice] Starting output thread!
-[13:37:09] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59630.
-[13:37:09] [Thread-122/INFO]: [RaspberryJuice] Starting input thread
-[13:37:09] [Thread-123/INFO]: [RaspberryJuice] Starting output thread!
-[13:37:09] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59629.
-[13:37:10] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59631.
-[13:37:10] [Thread-124/INFO]: [RaspberryJuice] Starting input thread
-[13:37:10] [Thread-125/INFO]: [RaspberryJuice] Starting output thread!
-[13:37:10] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59630.
-[13:37:10] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59632.
-[13:37:10] [Thread-126/INFO]: [RaspberryJuice] Starting input thread
-[13:37:10] [Thread-127/INFO]: [RaspberryJuice] Starting output thread!
-[13:37:10] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59631.
-[13:37:11] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59633.
-[13:37:11] [Thread-129/INFO]: [RaspberryJuice] Starting output thread!
-[13:37:11] [Thread-128/INFO]: [RaspberryJuice] Starting input thread
-[13:37:11] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59632.
-[13:37:12] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59634.
-[13:37:12] [Thread-131/INFO]: [RaspberryJuice] Starting output thread!
-[13:37:12] [Thread-130/INFO]: [RaspberryJuice] Starting input thread
-[13:37:12] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59635.
-[13:37:12] [Thread-132/INFO]: [RaspberryJuice] Starting input thread
-[13:37:12] [Thread-133/INFO]: [RaspberryJuice] Starting output thread!
-[13:37:12] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59633.
-[13:37:12] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59634.
-[13:37:16] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59636.
-[13:37:16] [Thread-134/INFO]: [RaspberryJuice] Starting input thread
-[13:37:16] [Thread-135/INFO]: [RaspberryJuice] Starting output thread!
-[13:37:16] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59635.
-[13:37:18] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59637.
-[13:37:18] [Thread-137/INFO]: [RaspberryJuice] Starting output thread!
-[13:37:18] [Thread-136/INFO]: [RaspberryJuice] Starting input thread
-[13:37:18] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59636.
-[13:37:18] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59638.
-[13:37:18] [Thread-139/INFO]: [RaspberryJuice] Starting output thread!
-[13:37:18] [Thread-138/INFO]: [RaspberryJuice] Starting input thread
-[13:37:19] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59637.
-[13:37:20] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59639.
-[13:37:20] [Thread-140/INFO]: [RaspberryJuice] Starting input thread
-[13:37:20] [Thread-141/INFO]: [RaspberryJuice] Starting output thread!
-[13:37:20] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59638.
-[13:37:21] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59640.
-[13:37:21] [Thread-142/INFO]: [RaspberryJuice] Starting input thread
-[13:37:21] [Thread-143/INFO]: [RaspberryJuice] Starting output thread!
-[13:37:21] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59639.
-[13:37:23] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59641.
-[13:37:23] [Thread-145/INFO]: [RaspberryJuice] Starting output thread!
-[13:37:23] [Thread-144/INFO]: [RaspberryJuice] Starting input thread
-[13:37:23] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59640.
-[13:37:23] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59642.
-[13:37:23] [Thread-146/INFO]: [RaspberryJuice] Starting input thread
-[13:37:23] [Thread-147/INFO]: [RaspberryJuice] Starting output thread!
-[13:37:23] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59641.
-[13:37:28] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59643.
-[13:37:28] [Thread-148/INFO]: [RaspberryJuice] Starting input thread
-[13:37:28] [Thread-149/INFO]: [RaspberryJuice] Starting output thread!
-[13:37:28] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59644.
-[13:37:28] [Thread-150/INFO]: [RaspberryJuice] Starting input thread
-[13:37:28] [Thread-151/INFO]: [RaspberryJuice] Starting output thread!
-[13:37:28] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59642.
-[13:37:28] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59643.
-[13:37:29] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59645.
-[13:37:29] [Thread-152/INFO]: [RaspberryJuice] Starting input thread
-[13:37:29] [Thread-153/INFO]: [RaspberryJuice] Starting output thread!
-[13:37:29] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59644.
-[13:37:29] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59646.
-[13:37:29] [Thread-154/INFO]: [RaspberryJuice] Starting input thread
-[13:37:29] [Thread-155/INFO]: [RaspberryJuice] Starting output thread!
-[13:37:30] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59645.
-[13:37:31] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59647.
-[13:37:31] [Thread-157/INFO]: [RaspberryJuice] Starting output thread!
-[13:37:31] [Thread-156/INFO]: [RaspberryJuice] Starting input thread
-[13:37:31] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59646.
-[13:37:32] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59648.
-[13:37:32] [Thread-159/INFO]: [RaspberryJuice] Starting output thread!
-[13:37:32] [Thread-158/INFO]: [RaspberryJuice] Starting input thread
-[13:37:32] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59647.
-[13:37:32] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59649.
-[13:37:32] [Thread-160/INFO]: [RaspberryJuice] Starting input thread
-[13:37:32] [Thread-161/INFO]: [RaspberryJuice] Starting output thread!
-[13:37:32] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59648.
-[13:37:33] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59650.
-[13:37:33] [Thread-162/INFO]: [RaspberryJuice] Starting input thread
-[13:37:33] [Thread-163/INFO]: [RaspberryJuice] Starting output thread!
-[13:37:33] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59649.
-[13:37:33] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59651.
-[13:37:33] [Thread-164/INFO]: [RaspberryJuice] Starting input thread
-[13:37:33] [Thread-165/INFO]: [RaspberryJuice] Starting output thread!
-[13:37:33] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59650.
-[13:37:34] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59652.
-[13:37:34] [Thread-166/INFO]: [RaspberryJuice] Starting input thread
-[13:37:34] [Thread-167/INFO]: [RaspberryJuice] Starting output thread!
-[13:37:34] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59653.
-[13:37:34] [Thread-168/INFO]: [RaspberryJuice] Starting input thread
-[13:37:34] [Thread-169/INFO]: [RaspberryJuice] Starting output thread!
-[13:37:34] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59651.
-[13:37:34] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59652.
-[13:37:34] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59654.
-[13:37:34] [Thread-170/INFO]: [RaspberryJuice] Starting input thread
-[13:37:34] [Thread-171/INFO]: [RaspberryJuice] Starting output thread!
-[13:37:35] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59655.
-[13:37:35] [Thread-173/INFO]: [RaspberryJuice] Starting output thread!
-[13:37:35] [Thread-172/INFO]: [RaspberryJuice] Starting input thread
-[13:37:35] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59653.
-[13:37:35] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59654.
-[13:37:36] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59656.
-[13:37:36] [Thread-174/INFO]: [RaspberryJuice] Starting input thread
-[13:37:36] [Thread-175/INFO]: [RaspberryJuice] Starting output thread!
-[13:37:36] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59657.
-[13:37:36] [Thread-176/INFO]: [RaspberryJuice] Starting input thread
-[13:37:36] [Thread-177/INFO]: [RaspberryJuice] Starting output thread!
-[13:37:36] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59655.
-[13:37:36] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59656.
-[13:37:37] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59658.
-[13:37:37] [Thread-178/INFO]: [RaspberryJuice] Starting input thread
-[13:37:37] [Thread-179/INFO]: [RaspberryJuice] Starting output thread!
-[13:37:37] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59659.
-[13:37:37] [Thread-180/INFO]: [RaspberryJuice] Starting input thread
-[13:37:37] [Thread-181/INFO]: [RaspberryJuice] Starting output thread!
-[13:37:37] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59657.
-[13:37:37] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59658.
-[13:37:38] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59660.
-[13:37:38] [Thread-183/INFO]: [RaspberryJuice] Starting output thread!
-[13:37:38] [Thread-182/INFO]: [RaspberryJuice] Starting input thread
-[13:37:38] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59661.
-[13:37:38] [Thread-184/INFO]: [RaspberryJuice] Starting input thread
-[13:37:38] [Thread-185/INFO]: [RaspberryJuice] Starting output thread!
-[13:37:38] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59659.
-[13:37:38] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59660.
-[13:37:39] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59662.
-[13:37:39] [Thread-186/INFO]: [RaspberryJuice] Starting input thread
-[13:37:39] [Thread-187/INFO]: [RaspberryJuice] Starting output thread!
-[13:37:39] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59663.
-[13:37:39] [Thread-188/INFO]: [RaspberryJuice] Starting input thread
-[13:37:39] [Thread-189/INFO]: [RaspberryJuice] Starting output thread!
-[13:37:39] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59661.
-[13:37:39] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59662.
-[13:37:40] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59664.
-[13:37:40] [Thread-191/INFO]: [RaspberryJuice] Starting output thread!
-[13:37:40] [Thread-190/INFO]: [RaspberryJuice] Starting input thread
-[13:37:40] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59665.
-[13:37:40] [Thread-192/INFO]: [RaspberryJuice] Starting input thread
-[13:37:40] [Thread-193/INFO]: [RaspberryJuice] Starting output thread!
-[13:37:40] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59663.
-[13:37:40] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59664.
-[13:37:41] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59666.
-[13:37:41] [Thread-194/INFO]: [RaspberryJuice] Starting input thread
-[13:37:41] [Thread-195/INFO]: [RaspberryJuice] Starting output thread!
-[13:37:41] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59667.
-[13:37:41] [Thread-196/INFO]: [RaspberryJuice] Starting input thread
-[13:37:41] [Thread-197/INFO]: [RaspberryJuice] Starting output thread!
-[13:37:41] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59665.
-[13:37:41] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59666.
-[13:37:52] [Server thread/INFO]: TheTaxary issued server command: /toggledownfall
-[13:37:52] [Server thread/INFO]: [TheTaxary: Toggled downfall]
-[13:37:54] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59672.
-[13:37:54] [Thread-199/INFO]: [RaspberryJuice] Starting output thread!
-[13:37:54] [Thread-198/INFO]: [RaspberryJuice] Starting input thread
-[13:37:54] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59673.
-[13:37:54] [Thread-200/INFO]: [RaspberryJuice] Starting input thread
-[13:37:54] [Thread-201/INFO]: [RaspberryJuice] Starting output thread!
-[13:37:54] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59667.
-[13:37:54] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59672.
-[13:38:02] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59674.
-[13:38:02] [Thread-202/INFO]: [RaspberryJuice] Starting input thread
-[13:38:02] [Thread-203/INFO]: [RaspberryJuice] Starting output thread!
-[13:38:02] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59675.
-[13:38:02] [Thread-204/INFO]: [RaspberryJuice] Starting input thread
-[13:38:02] [Thread-205/INFO]: [RaspberryJuice] Starting output thread!
-[13:38:02] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59673.
-[13:38:02] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59674.
-[13:38:06] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59676.
-[13:38:06] [Thread-207/INFO]: [RaspberryJuice] Starting output thread!
-[13:38:06] [Thread-206/INFO]: [RaspberryJuice] Starting input thread
-[13:38:06] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59675.
-[13:38:06] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59677.
-[13:38:06] [Thread-209/INFO]: [RaspberryJuice] Starting output thread!
-[13:38:06] [Thread-208/INFO]: [RaspberryJuice] Starting input thread
-[13:38:07] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59676.
-[13:59:14] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59628.
-[13:59:14] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59677.
-[13:59:16] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59722.
-[13:59:16] [Thread-210/INFO]: [RaspberryJuice] Starting input thread
-[13:59:16] [Thread-211/INFO]: [RaspberryJuice] Starting output thread!
-[13:59:20] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59722.
-[14:27:07] [Server thread/INFO]: TheTaxary lost connection: Timed out
-[14:27:07] [Server thread/INFO]: TheTaxary left the game
+[14:13:31] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53524.
+[14:13:31] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53525.
+[14:13:31] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53528.
+[14:13:31] [Thread-490/INFO]: [RaspberryJuice] Starting input thread
+[14:13:31] [Thread-491/INFO]: [RaspberryJuice] Starting output thread!
+[14:13:31] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53529.
+[14:13:31] [Thread-492/INFO]: [RaspberryJuice] Starting input thread
+[14:13:31] [Thread-493/INFO]: [RaspberryJuice] Starting output thread!
+[14:13:31] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53526.
+[14:13:31] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53527.
+[14:15:48] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53507.
+[14:15:48] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53528.
+[14:15:48] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53529.
+[14:15:50] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53538.
+[14:15:50] [Thread-494/INFO]: [RaspberryJuice] Starting input thread
+[14:15:50] [Thread-495/INFO]: [RaspberryJuice] Starting output thread!
+[14:15:53] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53540.
+[14:15:53] [Thread-497/INFO]: [RaspberryJuice] Starting output thread!
+[14:15:53] [Thread-496/INFO]: [RaspberryJuice] Starting input thread
+[14:15:53] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53541.
+[14:15:53] [Thread-499/INFO]: [RaspberryJuice] Starting output thread!
+[14:15:53] [Thread-498/INFO]: [RaspberryJuice] Starting input thread
+[14:15:55] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53542.
+[14:15:55] [Thread-501/INFO]: [RaspberryJuice] Starting output thread!
+[14:15:55] [Thread-500/INFO]: [RaspberryJuice] Starting input thread
+[14:15:55] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53543.
+[14:15:55] [Thread-503/INFO]: [RaspberryJuice] Starting output thread!
+[14:15:55] [Thread-502/INFO]: [RaspberryJuice] Starting input thread
+[14:15:55] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53540.
+[14:15:55] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53541.
+[14:15:55] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53544.
+[14:15:55] [Thread-504/INFO]: [RaspberryJuice] Starting input thread
+[14:15:55] [Thread-505/INFO]: [RaspberryJuice] Starting output thread!
+[14:15:55] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53545.
+[14:15:55] [Thread-506/INFO]: [RaspberryJuice] Starting input thread
+[14:15:55] [Thread-507/INFO]: [RaspberryJuice] Starting output thread!
+[14:15:55] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53542.
+[14:15:55] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53546.
+[14:15:55] [Thread-508/INFO]: [RaspberryJuice] Starting input thread
+[14:15:55] [Thread-509/INFO]: [RaspberryJuice] Starting output thread!
+[14:15:56] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53543.
+[14:15:56] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53547.
+[14:15:56] [Thread-510/INFO]: [RaspberryJuice] Starting input thread
+[14:15:56] [Thread-511/INFO]: [RaspberryJuice] Starting output thread!
+[14:15:56] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53544.
+[14:15:56] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53548.
+[14:15:56] [Thread-512/INFO]: [RaspberryJuice] Starting input thread
+[14:15:56] [Thread-513/INFO]: [RaspberryJuice] Starting output thread!
+[14:15:56] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53545.
+[14:15:56] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53549.
+[14:15:56] [Thread-514/INFO]: [RaspberryJuice] Starting input thread
+[14:15:56] [Thread-515/INFO]: [RaspberryJuice] Starting output thread!
+[14:15:56] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53546.
+[14:15:56] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53550.
+[14:15:56] [Thread-516/INFO]: [RaspberryJuice] Starting input thread
+[14:15:56] [Thread-517/INFO]: [RaspberryJuice] Starting output thread!
+[14:15:56] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53547.
+[14:15:56] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53551.
+[14:15:56] [Thread-518/INFO]: [RaspberryJuice] Starting input thread
+[14:15:56] [Thread-519/INFO]: [RaspberryJuice] Starting output thread!
+[14:15:56] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53548.
+[14:15:56] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53549.
+[14:15:56] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53552.
+[14:15:56] [Thread-520/INFO]: [RaspberryJuice] Starting input thread
+[14:15:56] [Thread-521/INFO]: [RaspberryJuice] Starting output thread!
+[14:15:56] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53553.
+[14:15:56] [Thread-522/INFO]: [RaspberryJuice] Starting input thread
+[14:15:56] [Thread-523/INFO]: [RaspberryJuice] Starting output thread!
+[14:15:56] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53550.
+[14:15:56] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53551.
+[14:15:56] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53554.
+[14:15:56] [Thread-524/INFO]: [RaspberryJuice] Starting input thread
+[14:15:56] [Thread-525/INFO]: [RaspberryJuice] Starting output thread!
+[14:15:56] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53555.
+[14:15:56] [Thread-527/INFO]: [RaspberryJuice] Starting output thread!
+[14:15:56] [Thread-526/INFO]: [RaspberryJuice] Starting input thread
+[14:15:56] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53552.
+[14:15:56] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53556.
+[14:15:56] [Thread-529/INFO]: [RaspberryJuice] Starting output thread!
+[14:15:56] [Thread-528/INFO]: [RaspberryJuice] Starting input thread
+[14:15:56] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53553.
+[14:15:56] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53557.
+[14:15:56] [Thread-530/INFO]: [RaspberryJuice] Starting input thread
+[14:15:56] [Thread-531/INFO]: [RaspberryJuice] Starting output thread!
+[14:15:56] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53554.
+[14:15:56] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53555.
+[14:15:56] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53558.
+[14:15:56] [Thread-532/INFO]: [RaspberryJuice] Starting input thread
+[14:15:56] [Thread-533/INFO]: [RaspberryJuice] Starting output thread!
+[14:15:56] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53559.
+[14:15:56] [Thread-535/INFO]: [RaspberryJuice] Starting output thread!
+[14:15:56] [Thread-534/INFO]: [RaspberryJuice] Starting input thread
+[14:15:57] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53556.
+[14:15:57] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53560.
+[14:15:57] [Thread-536/INFO]: [RaspberryJuice] Starting input thread
+[14:15:57] [Thread-537/INFO]: [RaspberryJuice] Starting output thread!
+[14:15:57] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53557.
+[14:15:57] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53561.
+[14:15:57] [Thread-539/INFO]: [RaspberryJuice] Starting output thread!
+[14:15:57] [Thread-538/INFO]: [RaspberryJuice] Starting input thread
+[14:15:57] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53558.
+[14:15:57] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53559.
+[14:15:57] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53562.
+[14:15:57] [Thread-541/INFO]: [RaspberryJuice] Starting output thread!
+[14:15:57] [Thread-540/INFO]: [RaspberryJuice] Starting input thread
+[14:15:57] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53563.
+[14:15:57] [Thread-542/INFO]: [RaspberryJuice] Starting input thread
+[14:15:57] [Thread-543/INFO]: [RaspberryJuice] Starting output thread!
+[14:15:57] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53560.
+[14:15:57] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53561.
+[14:15:57] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53564.
+[14:15:57] [Thread-544/INFO]: [RaspberryJuice] Starting input thread
+[14:15:57] [Thread-545/INFO]: [RaspberryJuice] Starting output thread!
+[14:15:57] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53565.
+[14:15:57] [Thread-546/INFO]: [RaspberryJuice] Starting input thread
+[14:15:57] [Thread-547/INFO]: [RaspberryJuice] Starting output thread!
+[14:15:57] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53562.
+[14:15:57] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53566.
+[14:15:57] [Thread-548/INFO]: [RaspberryJuice] Starting input thread
+[14:15:57] [Thread-549/INFO]: [RaspberryJuice] Starting output thread!
+[14:15:57] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53563.
+[14:15:57] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53567.
+[14:15:57] [Thread-550/INFO]: [RaspberryJuice] Starting input thread
+[14:15:57] [Thread-551/INFO]: [RaspberryJuice] Starting output thread!
+[14:15:57] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53564.
+[14:15:57] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53565.
+[14:15:57] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53568.
+[14:15:57] [Thread-552/INFO]: [RaspberryJuice] Starting input thread
+[14:15:57] [Thread-553/INFO]: [RaspberryJuice] Starting output thread!
+[14:15:57] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53569.
+[14:15:57] [Thread-554/INFO]: [RaspberryJuice] Starting input thread
+[14:15:57] [Thread-555/INFO]: [RaspberryJuice] Starting output thread!
+[14:15:57] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53566.
+[14:15:57] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53567.
+[14:15:58] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53570.
+[14:15:58] [Thread-557/INFO]: [RaspberryJuice] Starting output thread!
+[14:15:58] [Thread-556/INFO]: [RaspberryJuice] Starting input thread
+[14:15:58] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53571.
+[14:15:58] [Thread-558/INFO]: [RaspberryJuice] Starting input thread
+[14:15:58] [Thread-559/INFO]: [RaspberryJuice] Starting output thread!
+[14:15:58] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53568.
+[14:15:58] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53572.
+[14:15:58] [Thread-560/INFO]: [RaspberryJuice] Starting input thread
+[14:15:58] [Thread-561/INFO]: [RaspberryJuice] Starting output thread!
+[14:15:58] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53569.
+[14:15:58] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53573.
+[14:15:58] [Thread-562/INFO]: [RaspberryJuice] Starting input thread
+[14:15:58] [Thread-563/INFO]: [RaspberryJuice] Starting output thread!
+[14:15:58] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53570.
+[14:15:58] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53574.
+[14:15:58] [Thread-564/INFO]: [RaspberryJuice] Starting input thread
+[14:15:58] [Thread-565/INFO]: [RaspberryJuice] Starting output thread!
+[14:15:58] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53571.
+[14:15:58] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53575.
+[14:15:58] [Thread-566/INFO]: [RaspberryJuice] Starting input thread
+[14:15:58] [Thread-567/INFO]: [RaspberryJuice] Starting output thread!
+[14:15:58] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53572.
+[14:15:58] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53576.
+[14:15:58] [Thread-568/INFO]: [RaspberryJuice] Starting input thread
+[14:15:58] [Thread-569/INFO]: [RaspberryJuice] Starting output thread!
+[14:15:58] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53573.
+[14:15:58] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53577.
+[14:15:58] [Thread-571/INFO]: [RaspberryJuice] Starting output thread!
+[14:15:58] [Thread-570/INFO]: [RaspberryJuice] Starting input thread
+[14:15:58] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53574.
+[14:15:58] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53578.
+[14:15:58] [Thread-572/INFO]: [RaspberryJuice] Starting input thread
+[14:15:58] [Thread-573/INFO]: [RaspberryJuice] Starting output thread!
+[14:15:58] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53575.
+[14:15:58] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53579.
+[14:15:58] [Thread-574/INFO]: [RaspberryJuice] Starting input thread
+[14:15:58] [Thread-575/INFO]: [RaspberryJuice] Starting output thread!
+[14:15:58] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53576.
+[14:15:58] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53580.
+[14:15:58] [Thread-576/INFO]: [RaspberryJuice] Starting input thread
+[14:15:58] [Thread-577/INFO]: [RaspberryJuice] Starting output thread!
+[14:15:58] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53577.
+[14:15:58] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53581.
+[14:15:58] [Thread-578/INFO]: [RaspberryJuice] Starting input thread
+[14:15:58] [Thread-579/INFO]: [RaspberryJuice] Starting output thread!
+[14:15:58] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53578.
+[14:15:58] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53582.
+[14:15:58] [Thread-580/INFO]: [RaspberryJuice] Starting input thread
+[14:15:58] [Thread-581/INFO]: [RaspberryJuice] Starting output thread!
+[14:15:59] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53579.
+[14:15:59] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53583.
+[14:15:59] [Thread-582/INFO]: [RaspberryJuice] Starting input thread
+[14:15:59] [Thread-583/INFO]: [RaspberryJuice] Starting output thread!
+[14:15:59] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53580.
+[14:15:59] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53584.
+[14:15:59] [Thread-584/INFO]: [RaspberryJuice] Starting input thread
+[14:15:59] [Thread-585/INFO]: [RaspberryJuice] Starting output thread!
+[14:15:59] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53581.
+[14:15:59] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53585.
+[14:15:59] [Thread-586/INFO]: [RaspberryJuice] Starting input thread
+[14:15:59] [Thread-587/INFO]: [RaspberryJuice] Starting output thread!
+[14:15:59] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53582.
+[14:15:59] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53586.
+[14:15:59] [Thread-588/INFO]: [RaspberryJuice] Starting input thread
+[14:15:59] [Thread-589/INFO]: [RaspberryJuice] Starting output thread!
+[14:15:59] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53583.
+[14:15:59] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53587.
+[14:15:59] [Thread-590/INFO]: [RaspberryJuice] Starting input thread
+[14:15:59] [Thread-591/INFO]: [RaspberryJuice] Starting output thread!
+[14:15:59] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53584.
+[14:15:59] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53585.
+[14:16:00] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53588.
+[14:16:00] [Thread-592/INFO]: [RaspberryJuice] Starting input thread
+[14:16:00] [Thread-593/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:00] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53589.
+[14:16:00] [Thread-594/INFO]: [RaspberryJuice] Starting input thread
+[14:16:00] [Thread-595/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:00] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53586.
+[14:16:00] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53587.
+[14:16:00] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53590.
+[14:16:00] [Thread-597/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:00] [Thread-596/INFO]: [RaspberryJuice] Starting input thread
+[14:16:00] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53591.
+[14:16:00] [Thread-599/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:00] [Thread-598/INFO]: [RaspberryJuice] Starting input thread
+[14:16:00] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53588.
+[14:16:00] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53589.
+[14:16:00] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53592.
+[14:16:00] [Thread-600/INFO]: [RaspberryJuice] Starting input thread
+[14:16:00] [Thread-601/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:00] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53593.
+[14:16:00] [Thread-602/INFO]: [RaspberryJuice] Starting input thread
+[14:16:00] [Thread-603/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:00] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53590.
+[14:16:00] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53591.
+[14:16:00] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53594.
+[14:16:00] [Thread-604/INFO]: [RaspberryJuice] Starting input thread
+[14:16:00] [Thread-605/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:01] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53595.
+[14:16:01] [Thread-606/INFO]: [RaspberryJuice] Starting input thread
+[14:16:01] [Thread-607/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:01] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53592.
+[14:16:01] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53593.
+[14:16:01] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53596.
+[14:16:01] [Thread-608/INFO]: [RaspberryJuice] Starting input thread
+[14:16:01] [Thread-609/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:01] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53597.
+[14:16:01] [Thread-610/INFO]: [RaspberryJuice] Starting input thread
+[14:16:01] [Thread-611/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:01] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53594.
+[14:16:01] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53595.
+[14:16:02] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53598.
+[14:16:02] [Thread-612/INFO]: [RaspberryJuice] Starting input thread
+[14:16:02] [Thread-613/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:02] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53599.
+[14:16:02] [Thread-614/INFO]: [RaspberryJuice] Starting input thread
+[14:16:02] [Thread-615/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:02] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53596.
+[14:16:02] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53597.
+[14:16:03] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53600.
+[14:16:03] [Thread-616/INFO]: [RaspberryJuice] Starting input thread
+[14:16:03] [Thread-617/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:03] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53601.
+[14:16:03] [Thread-618/INFO]: [RaspberryJuice] Starting input thread
+[14:16:03] [Thread-619/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:03] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53598.
+[14:16:03] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53602.
+[14:16:03] [Thread-620/INFO]: [RaspberryJuice] Starting input thread
+[14:16:03] [Thread-621/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:03] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53599.
+[14:16:03] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53603.
+[14:16:03] [Thread-622/INFO]: [RaspberryJuice] Starting input thread
+[14:16:03] [Thread-623/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:03] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53600.
+[14:16:03] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53604.
+[14:16:03] [Thread-624/INFO]: [RaspberryJuice] Starting input thread
+[14:16:03] [Thread-625/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:03] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53601.
+[14:16:03] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53605.
+[14:16:03] [Thread-626/INFO]: [RaspberryJuice] Starting input thread
+[14:16:03] [Thread-627/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:03] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53602.
+[14:16:03] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53603.
+[14:16:03] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53606.
+[14:16:03] [Thread-628/INFO]: [RaspberryJuice] Starting input thread
+[14:16:03] [Thread-629/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:03] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53607.
+[14:16:03] [Thread-630/INFO]: [RaspberryJuice] Starting input thread
+[14:16:03] [Thread-631/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:03] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53604.
+[14:16:03] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53608.
+[14:16:03] [Thread-632/INFO]: [RaspberryJuice] Starting input thread
+[14:16:03] [Thread-633/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:03] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53605.
+[14:16:03] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53609.
+[14:16:03] [Thread-635/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:03] [Thread-634/INFO]: [RaspberryJuice] Starting input thread
+[14:16:03] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53606.
+[14:16:03] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53607.
+[14:16:03] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53610.
+[14:16:03] [Thread-636/INFO]: [RaspberryJuice] Starting input thread
+[14:16:03] [Thread-637/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:03] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53611.
+[14:16:03] [Thread-638/INFO]: [RaspberryJuice] Starting input thread
+[14:16:03] [Thread-639/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:03] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53608.
+[14:16:03] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53609.
+[14:16:04] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53612.
+[14:16:04] [Thread-640/INFO]: [RaspberryJuice] Starting input thread
+[14:16:04] [Thread-641/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:04] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53613.
+[14:16:04] [Thread-643/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:04] [Thread-642/INFO]: [RaspberryJuice] Starting input thread
+[14:16:04] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53610.
+[14:16:04] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53614.
+[14:16:04] [Thread-644/INFO]: [RaspberryJuice] Starting input thread
+[14:16:04] [Thread-645/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:04] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53611.
+[14:16:04] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53615.
+[14:16:04] [Thread-647/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:04] [Thread-646/INFO]: [RaspberryJuice] Starting input thread
+[14:16:04] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53612.
+[14:16:04] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53613.
+[14:16:04] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53616.
+[14:16:04] [Thread-648/INFO]: [RaspberryJuice] Starting input thread
+[14:16:04] [Thread-649/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:04] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53617.
+[14:16:04] [Thread-650/INFO]: [RaspberryJuice] Starting input thread
+[14:16:04] [Thread-651/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:04] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53614.
+[14:16:04] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53615.
+[14:16:04] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53618.
+[14:16:04] [Thread-652/INFO]: [RaspberryJuice] Starting input thread
+[14:16:04] [Thread-653/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:04] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53619.
+[14:16:04] [Thread-654/INFO]: [RaspberryJuice] Starting input thread
+[14:16:04] [Thread-655/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:05] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53616.
+[14:16:05] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53617.
+[14:16:05] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53620.
+[14:16:05] [Thread-656/INFO]: [RaspberryJuice] Starting input thread
+[14:16:05] [Thread-657/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:05] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53621.
+[14:16:05] [Thread-659/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:05] [Thread-658/INFO]: [RaspberryJuice] Starting input thread
+[14:16:05] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53618.
+[14:16:05] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53619.
+[14:16:05] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53622.
+[14:16:05] [Thread-660/INFO]: [RaspberryJuice] Starting input thread
+[14:16:05] [Thread-661/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:05] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53623.
+[14:16:05] [Thread-662/INFO]: [RaspberryJuice] Starting input thread
+[14:16:05] [Thread-663/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:05] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53620.
+[14:16:05] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53621.
+[14:16:05] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53624.
+[14:16:05] [Thread-664/INFO]: [RaspberryJuice] Starting input thread
+[14:16:05] [Thread-665/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:05] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53625.
+[14:16:05] [Thread-666/INFO]: [RaspberryJuice] Starting input thread
+[14:16:05] [Thread-667/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:05] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53622.
+[14:16:05] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53623.
+[14:16:05] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53626.
+[14:16:05] [Thread-668/INFO]: [RaspberryJuice] Starting input thread
+[14:16:05] [Thread-669/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:05] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53627.
+[14:16:05] [Thread-670/INFO]: [RaspberryJuice] Starting input thread
+[14:16:05] [Thread-671/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:05] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53624.
+[14:16:05] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53628.
+[14:16:05] [Thread-672/INFO]: [RaspberryJuice] Starting input thread
+[14:16:05] [Thread-673/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:05] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53625.
+[14:16:05] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53629.
+[14:16:05] [Thread-674/INFO]: [RaspberryJuice] Starting input thread
+[14:16:05] [Thread-675/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:05] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53626.
+[14:16:06] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53627.
+[14:16:06] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53630.
+[14:16:06] [Thread-676/INFO]: [RaspberryJuice] Starting input thread
+[14:16:06] [Thread-677/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:06] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53631.
+[14:16:06] [Thread-678/INFO]: [RaspberryJuice] Starting input thread
+[14:16:06] [Thread-679/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:06] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53628.
+[14:16:06] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53632.
+[14:16:06] [Thread-680/INFO]: [RaspberryJuice] Starting input thread
+[14:16:06] [Thread-681/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:06] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53629.
+[14:16:06] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53633.
+[14:16:06] [Thread-682/INFO]: [RaspberryJuice] Starting input thread
+[14:16:06] [Thread-683/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:06] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53630.
+[14:16:06] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53631.
+[14:16:06] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53634.
+[14:16:06] [Thread-685/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:06] [Thread-684/INFO]: [RaspberryJuice] Starting input thread
+[14:16:06] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53635.
+[14:16:06] [Thread-687/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:06] [Thread-686/INFO]: [RaspberryJuice] Starting input thread
+[14:16:06] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53632.
+[14:16:06] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53633.
+[14:16:06] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53636.
+[14:16:06] [Thread-688/INFO]: [RaspberryJuice] Starting input thread
+[14:16:06] [Thread-689/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:06] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53637.
+[14:16:06] [Thread-690/INFO]: [RaspberryJuice] Starting input thread
+[14:16:06] [Thread-691/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:06] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53634.
+[14:16:06] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53635.
+[14:16:06] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53638.
+[14:16:06] [Thread-692/INFO]: [RaspberryJuice] Starting input thread
+[14:16:06] [Thread-693/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:06] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53639.
+[14:16:06] [Thread-694/INFO]: [RaspberryJuice] Starting input thread
+[14:16:06] [Thread-695/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:06] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53636.
+[14:16:06] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53640.
+[14:16:06] [Thread-697/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:06] [Thread-696/INFO]: [RaspberryJuice] Starting input thread
+[14:16:06] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53637.
+[14:16:06] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53641.
+[14:16:06] [Thread-698/INFO]: [RaspberryJuice] Starting input thread
+[14:16:06] [Thread-699/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:06] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53638.
+[14:16:07] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53639.
+[14:16:07] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53642.
+[14:16:07] [Thread-700/INFO]: [RaspberryJuice] Starting input thread
+[14:16:07] [Thread-701/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:07] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53643.
+[14:16:07] [Thread-702/INFO]: [RaspberryJuice] Starting input thread
+[14:16:07] [Thread-703/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:07] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53640.
+[14:16:07] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53644.
+[14:16:07] [Thread-704/INFO]: [RaspberryJuice] Starting input thread
+[14:16:07] [Thread-705/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:07] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53641.
+[14:16:07] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53645.
+[14:16:07] [Thread-706/INFO]: [RaspberryJuice] Starting input thread
+[14:16:07] [Thread-707/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:07] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53642.
+[14:16:07] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53643.
+[14:16:07] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53646.
+[14:16:07] [Thread-708/INFO]: [RaspberryJuice] Starting input thread
+[14:16:07] [Thread-709/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:07] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53647.
+[14:16:07] [Thread-710/INFO]: [RaspberryJuice] Starting input thread
+[14:16:07] [Thread-711/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:07] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53644.
+[14:16:07] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53648.
+[14:16:07] [Thread-712/INFO]: [RaspberryJuice] Starting input thread
+[14:16:07] [Thread-713/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:07] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53645.
+[14:16:07] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53649.
+[14:16:07] [Thread-714/INFO]: [RaspberryJuice] Starting input thread
+[14:16:07] [Thread-715/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:07] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53646.
+[14:16:07] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53647.
+[14:16:07] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53650.
+[14:16:07] [Thread-716/INFO]: [RaspberryJuice] Starting input thread
+[14:16:07] [Thread-717/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:07] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53651.
+[14:16:07] [Thread-718/INFO]: [RaspberryJuice] Starting input thread
+[14:16:07] [Thread-719/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:07] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53648.
+[14:16:07] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53649.
+[14:16:07] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53652.
+[14:16:07] [Thread-720/INFO]: [RaspberryJuice] Starting input thread
+[14:16:07] [Thread-721/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:07] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53653.
+[14:16:07] [Thread-723/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:07] [Thread-722/INFO]: [RaspberryJuice] Starting input thread
+[14:16:07] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53650.
+[14:16:08] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53651.
+[14:16:08] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53654.
+[14:16:08] [Thread-724/INFO]: [RaspberryJuice] Starting input thread
+[14:16:08] [Thread-725/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:08] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53655.
+[14:16:08] [Thread-726/INFO]: [RaspberryJuice] Starting input thread
+[14:16:08] [Thread-727/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:08] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53652.
+[14:16:08] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53656.
+[14:16:08] [Thread-728/INFO]: [RaspberryJuice] Starting input thread
+[14:16:08] [Thread-729/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:08] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53653.
+[14:16:08] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53657.
+[14:16:08] [Thread-730/INFO]: [RaspberryJuice] Starting input thread
+[14:16:08] [Thread-731/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:08] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53654.
+[14:16:08] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53655.
+[14:16:08] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53658.
+[14:16:08] [Thread-732/INFO]: [RaspberryJuice] Starting input thread
+[14:16:08] [Thread-733/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:08] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53659.
+[14:16:08] [Thread-734/INFO]: [RaspberryJuice] Starting input thread
+[14:16:08] [Thread-735/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:08] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53656.
+[14:16:08] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53657.
+[14:16:08] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53660.
+[14:16:08] [Thread-736/INFO]: [RaspberryJuice] Starting input thread
+[14:16:08] [Thread-737/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:08] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53661.
+[14:16:08] [Thread-738/INFO]: [RaspberryJuice] Starting input thread
+[14:16:08] [Thread-739/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:08] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53658.
+[14:16:08] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53659.
+[14:16:08] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53662.
+[14:16:08] [Thread-741/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:08] [Thread-740/INFO]: [RaspberryJuice] Starting input thread
+[14:16:08] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53663.
+[14:16:08] [Thread-742/INFO]: [RaspberryJuice] Starting input thread
+[14:16:08] [Thread-743/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:08] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53660.
+[14:16:08] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53661.
+[14:16:08] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53664.
+[14:16:08] [Thread-744/INFO]: [RaspberryJuice] Starting input thread
+[14:16:08] [Thread-745/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:09] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53665.
+[14:16:09] [Thread-747/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:09] [Thread-746/INFO]: [RaspberryJuice] Starting input thread
+[14:16:09] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53662.
+[14:16:09] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53663.
+[14:16:09] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53666.
+[14:16:09] [Thread-748/INFO]: [RaspberryJuice] Starting input thread
+[14:16:09] [Thread-749/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:09] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53667.
+[14:16:09] [Thread-750/INFO]: [RaspberryJuice] Starting input thread
+[14:16:09] [Thread-751/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:09] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53664.
+[14:16:09] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53665.
+[14:16:09] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53668.
+[14:16:09] [Thread-752/INFO]: [RaspberryJuice] Starting input thread
+[14:16:09] [Thread-753/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:09] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53669.
+[14:16:09] [Thread-754/INFO]: [RaspberryJuice] Starting input thread
+[14:16:09] [Thread-755/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:09] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53666.
+[14:16:09] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53667.
+[14:16:09] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53670.
+[14:16:09] [Thread-756/INFO]: [RaspberryJuice] Starting input thread
+[14:16:09] [Thread-757/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:09] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53671.
+[14:16:09] [Thread-758/INFO]: [RaspberryJuice] Starting input thread
+[14:16:09] [Thread-759/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:09] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53668.
+[14:16:09] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53669.
+[14:16:09] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53672.
+[14:16:09] [Thread-760/INFO]: [RaspberryJuice] Starting input thread
+[14:16:09] [Thread-761/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:09] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53673.
+[14:16:09] [Thread-762/INFO]: [RaspberryJuice] Starting input thread
+[14:16:09] [Thread-763/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:09] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53670.
+[14:16:10] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53671.
+[14:16:10] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53674.
+[14:16:10] [Thread-764/INFO]: [RaspberryJuice] Starting input thread
+[14:16:10] [Thread-765/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:10] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53675.
+[14:16:10] [Thread-767/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:10] [Thread-766/INFO]: [RaspberryJuice] Starting input thread
+[14:16:10] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53672.
+[14:16:10] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53673.
+[14:16:10] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53676.
+[14:16:10] [Thread-768/INFO]: [RaspberryJuice] Starting input thread
+[14:16:10] [Thread-769/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:10] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53677.
+[14:16:10] [Thread-771/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:10] [Thread-770/INFO]: [RaspberryJuice] Starting input thread
+[14:16:10] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53674.
+[14:16:10] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53675.
+[14:16:10] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53678.
+[14:16:10] [Thread-772/INFO]: [RaspberryJuice] Starting input thread
+[14:16:10] [Thread-773/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:10] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53679.
+[14:16:10] [Thread-774/INFO]: [RaspberryJuice] Starting input thread
+[14:16:10] [Thread-775/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:10] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53676.
+[14:16:10] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53677.
+[14:16:10] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53680.
+[14:16:10] [Thread-776/INFO]: [RaspberryJuice] Starting input thread
+[14:16:10] [Thread-777/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:10] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53681.
+[14:16:10] [Thread-778/INFO]: [RaspberryJuice] Starting input thread
+[14:16:10] [Thread-779/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:10] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53678.
+[14:16:10] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53679.
+[14:16:10] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53682.
+[14:16:10] [Thread-780/INFO]: [RaspberryJuice] Starting input thread
+[14:16:10] [Thread-781/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:10] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53683.
+[14:16:10] [Thread-782/INFO]: [RaspberryJuice] Starting input thread
+[14:16:10] [Thread-783/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:10] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53680.
+[14:16:11] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53681.
+[14:16:11] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53684.
+[14:16:11] [Thread-784/INFO]: [RaspberryJuice] Starting input thread
+[14:16:11] [Thread-785/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:11] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53685.
+[14:16:11] [Thread-786/INFO]: [RaspberryJuice] Starting input thread
+[14:16:11] [Thread-787/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:11] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53682.
+[14:16:11] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53683.
+[14:16:11] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53686.
+[14:16:11] [Thread-789/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:11] [Thread-788/INFO]: [RaspberryJuice] Starting input thread
+[14:16:11] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53687.
+[14:16:11] [Thread-790/INFO]: [RaspberryJuice] Starting input thread
+[14:16:11] [Thread-791/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:11] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53684.
+[14:16:11] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53688.
+[14:16:11] [Thread-793/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:11] [Thread-792/INFO]: [RaspberryJuice] Starting input thread
+[14:16:11] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53685.
+[14:16:11] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53690.
+[14:16:11] [Thread-794/INFO]: [RaspberryJuice] Starting input thread
+[14:16:11] [Thread-795/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:11] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53686.
+[14:16:11] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53691.
+[14:16:11] [Thread-796/INFO]: [RaspberryJuice] Starting input thread
+[14:16:11] [Thread-797/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:11] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53687.
+[14:16:11] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53692.
+[14:16:11] [Thread-798/INFO]: [RaspberryJuice] Starting input thread
+[14:16:11] [Thread-799/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:11] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53688.
+[14:16:11] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53690.
+[14:16:22] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53538.
+[14:16:22] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53691.
+[14:16:22] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53692.
+[14:16:27] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53693.
+[14:16:27] [Thread-800/INFO]: [RaspberryJuice] Starting input thread
+[14:16:27] [Thread-801/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:30] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53694.
+[14:16:30] [Thread-803/INFO]: [RaspberryJuice] Starting output thread!
+[14:16:30] [Thread-802/INFO]: [RaspberryJuice] Starting input thread
+[14:16:30] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53695.
+[14:16:30] [Thread-804/INFO]: [RaspberryJuice] Starting input thread
+[14:16:30] [Thread-805/INFO]: [RaspberryJuice] Starting output thread!
+[14:19:03] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53693.
+[14:19:03] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53694.
+[14:19:03] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53695.
+[14:19:04] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53712.
+[14:19:04] [Thread-806/INFO]: [RaspberryJuice] Starting input thread
+[14:19:04] [Thread-807/INFO]: [RaspberryJuice] Starting output thread!
+[14:19:06] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53713.
+[14:19:06] [Thread-808/INFO]: [RaspberryJuice] Starting input thread
+[14:19:06] [Thread-809/INFO]: [RaspberryJuice] Starting output thread!
+[14:19:06] [Thread-810/INFO]: [RaspberryJuice] Starting input thread
+[14:19:06] [Thread-811/INFO]: [RaspberryJuice] Starting output thread!
+[14:19:06] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53714.
+[14:19:06] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53715.
+[14:19:06] [Thread-812/INFO]: [RaspberryJuice] Starting input thread
+[14:19:06] [Thread-813/INFO]: [RaspberryJuice] Starting output thread!
+[14:19:06] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53716.
+[14:19:06] [Thread-814/INFO]: [RaspberryJuice] Starting input thread
+[14:19:06] [Thread-815/INFO]: [RaspberryJuice] Starting output thread!
+[14:19:06] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53713.
+[14:19:06] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53714.
+[14:19:58] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53712.
+[14:19:58] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53715.
+[14:19:58] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53716.
+[14:19:59] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53722.
+[14:19:59] [Thread-816/INFO]: [RaspberryJuice] Starting input thread
+[14:19:59] [Thread-817/INFO]: [RaspberryJuice] Starting output thread!
+[14:20:04] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53724.
+[14:20:04] [Thread-818/INFO]: [RaspberryJuice] Starting input thread
+[14:20:04] [Thread-819/INFO]: [RaspberryJuice] Starting output thread!
+[14:20:04] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53725.
+[14:20:04] [Thread-820/INFO]: [RaspberryJuice] Starting input thread
+[14:20:04] [Thread-821/INFO]: [RaspberryJuice] Starting output thread!
+[19:43:40] [Server thread/INFO]: TheTaxary lost connection: Timed out
+[19:43:40] [Server thread/INFO]: TheTaxary left the game

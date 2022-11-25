@@ -5,7 +5,7 @@ const int ledPin = 10;    // the number of the LED pin
 int buttonState = 0;  // variable for reading the pushbutton status
 int state = 0;
 
-void setup() {
+void setup2() {
   // initialize the LED pin as an output:
   pinMode(ledPin, OUTPUT);
   // initialize the pushbutton pin as an input:

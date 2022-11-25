@@ -3,44 +3,43 @@ from mcpi import block
 import keyboard
 
 # Connect to Minecraft
-mc = Minecraft.create()
+mct = Minecraft.create()
 
 
 
 class Wall:
-    def __init__(self, pos):
+    def __init__(self, pos, mc, rotated = False):
         self.pos = pos
-        self.rotate = False
+        self.rotated = rotated
         self.width = 6
         self.height = 5
-        self._mc = Minecraft.create()
+        self._mc = mc
 
     # self.material.id = block.WOOD
 
-    def build(self, rotated):
-        if rotated:
-            mc.setBlocks(pos.x + 2, pos.y, pos.z, pos.x + self.width + 2, pos.y + self.height, pos.z, block.WOOD)
 
+    def build(self):
+
+        if self.rotated == False:
+            self._mc.setBlocks(self.pos.x + 2, self.pos.y, self.pos.z, self.pos.x + self.width + 2, self.pos.y + self.height, self.pos.z, block.WOOD)
         else:
-            mc.setBlocks(pos.x, pos.y, pos.z + 2, pos.x, pos.y + self.height, pos.z + self.width + 2, block.WOOD)
-
+            self._mc.setBlocks(self.pos.x, self.pos.y, self.pos.z + 2, self.pos.x, self.pos.y + self.height, self.pos.z + self.width + 2, block.WOOD)
 
 class WallWithWindow(Wall):
-    def __init__(self, pos, width, height, rotate, mc):
-        super().__init__(pos, width, height, rotate, mc)
+    def __init__(self, pos, _mc, rotated = False):
+        super().__init__(pos, _mc, rotated)
 
-    def build(self, rotated):
-        Wall.build(rotated)
-        if rotated:
-            mc.setBlocks(pos.x + 3, pos.y +1, pos.z, pos.x + self.width + 1, pos.y + self.height -1, pos.z, block.DIAMOND_BLOCK)
+    def build(self):
+        super().build()
 
-        else:
-            mc.setBlocks(pos.x, pos.y, pos.z + 2, pos.x, pos.y + self.height, pos.z + self.width + 2, block.WOOD)
-
+        if self.rotated == False:
+            self._mc.setBlocks(self.pos.x + 4, self.pos.y + 2, self.pos.z, self.pos.x + 6, self.pos.y + 3, self.pos.z, block.GLASS_PANE)
+        else :
+            self._mc.setBlocks(self.pos.x, self.pos.y + 2, self.pos.z + 4, self.pos.x, self.pos.y + 3, self.pos.z + 6, block.GLASS_PANE)
 
 while True:
     if keyboard.read_key() == 'b':
-        pos = mc.player.getTilePos()
-        walls = WallWithWindow(pos)
-        walls.build(False)
-        walls.build(True)
+        walls = WallWithWindow(mct.player.getTilePos(), Minecraft.create(), True)
+        walls.build()
+        wall1 = WallWithWindow(mct.player.getTilePos(), Minecraft.create(), False)
+        wall1.build()
