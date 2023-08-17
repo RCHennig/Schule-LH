@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Options Menu</title>
+</head>
+<body>
+    <h1>Options Menu</h1>
+    <form>
+        <h2>Audio Volume Mixer</h2>
+        <label for="audioVolume">Audio Volume:</label>
+        <input type="range" id="audioVolume" name="audioVolume" min="0" max="100" value="50">
+
+        <h2>Font Size</h2>
+        <label for="fontSize">Select Font Size:</label>
+        <select id="fontSize" name="fontSize">
+            <option value="small">Small</option>
+            <option value="medium" selected>Medium</option>
+            <option value="large">Large</option>
+        </select>
+
+        <h2>Screen Reader</h2>
+        <label for="screenReader">Enable Screen Reader:</label>
+        <input type="checkbox" id="screenReader" name="screenReader">
+
+        <h2>Meme Option</h2>
+        <label for="memeOption">Select a Meme:</label>
+        <select id="memeOption" name="memeOption">
+            <option value="none">None</option>
+            <option value="cat">Cat</option>
+            <option value="dog">Dog</option>
+            <option value="laugh">Laugh</option>
+        </select>
+
+        <button type="submit">Save</button>
+    </form>
+</body>
+</html>
