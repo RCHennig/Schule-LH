@@ -9,9 +9,9 @@ TIME_LIMIT = 10
 
 # Set up the MySQL connection
 db_connection = mysql.connector.connect(
-    host="127.0.0.1:3306",
+    host="127.0.0.1",
     user="root",
-    password="",
+    password="RealVM2021",
     database="PlayerData"
 )
 db_cursor = db_connection.cursor()
