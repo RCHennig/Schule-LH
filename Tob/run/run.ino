@@ -1,39 +1,33 @@
-const int buttonPin = 13;  // the number of the pushbutton pin
-const int ledPin = 10;    // the number of the LED pin
+int trigger=6;
+int echo=7;
+long dauer=0; 
+long entfernung=0; 
+int sound = 8;
 
-
-int buttonState = 0;  // variable for reading the pushbutton status
-int state = 0;
-
-void setup() {
-  // initialize the LED pin as an output:
-  pinMode(ledPin, OUTPUT);
-  // initialize the pushbutton pin as an input:
-  pinMode(buttonPin, INPUT);
+void setup()
+{
+Serial.begin (9600); 
+pinMode(trigger, OUTPUT); 
+pinMode(echo, INPUT);
+pinMode(sound, OUTPUT);
 }
 
-void loop() {
-  // read the state of the pushbutton value:
-  
-  buttonState = digitalRead(buttonPin);
-
-  // check if the pushbutton is pressed. If it is, the buttonState is HIGH:
-
-  if (buttonState == HIGH && state == 0) {
-    //delay(70);
-    digitalWrite(ledPin, HIGH);
-    //delay(10);
-    state = 1;
-    //delay(100);
-  }else if (buttonState == HIGH && state == 1){
-    //delay(70);
-    digitalWrite(ledPin, LOW);
-    //delay(10);
-    state = 0;
-    //delay(100);
-  }else{
-    //delay(100);
-  }
- delay(200); //while schleife
-
-  }
+void loop()
+{
+digitalWrite(trigger, LOW); 
+delay(5);
+digitalWrite(trigger, HIGH); 
+delay(10);
+digitalWrite(trigger, LOW);
+dauer = pulseIn(echo, HIGH); 
+entfernung = (dauer/2) * 0.03432; 
+if (entfernung >= 500 || entfernung <= 0) 
+{
+//Serial.println("Kein Messwert");
+noTone(sound);
+}
+else{
+    Serial.print(entfernung); 
+    }
+    delay(1000);
+    }
