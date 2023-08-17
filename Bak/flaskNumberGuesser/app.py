@@ -1,9 +1,11 @@
-from flask import Flask, render_template, request, session
+from flask import Flask, render_template, request, session, redirect, url_for
 import random
+import time
 import mysql.connector
 
 app = Flask(__name__)
 app.secret_key = "your_secret_key"
+TIME_LIMIT = 10
 
 # Set up the MySQL connection
 db_connection = mysql.connector.connect(
@@ -16,6 +18,7 @@ db_cursor = db_connection.cursor()
 
 def start_new_round():
     session["target_number"] = random.randint(1, 100)
+    session["start_time"] = time.time()
 
 def save_score(player, score):
     sql = "INSERT INTO scores (player, score) VALUES (%s, %s)"
@@ -27,7 +30,7 @@ def save_score(player, score):
 def index():
     if "score" not in session:
         session["score"] = 0
-    if "target_number" not in session:
+    if "target_number" not in session or time.time() - session["start_time"] > TIME_LIMIT:
         start_new_round()
 
     if request.method == "POST":
