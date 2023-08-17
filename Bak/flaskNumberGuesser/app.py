@@ -31,6 +31,8 @@ def index():
     if "score" not in session:
         session["score"] = 0
     if "target_number" not in session or time.time() - session["start_time"] > TIME_LIMIT:
+        session["message"]= "Runde Zuende!"
+        time.sleep(5)
         start_new_round()
 
     if request.method == "POST":
