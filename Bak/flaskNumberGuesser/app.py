@@ -18,7 +18,11 @@ db_cursor = db_connection.cursor()
 
 def start_new_round():
     session["target_number"] = random.randint(1, 100)
-    session["start_time"] = time.time()
+
+def start_new_game():
+    session["score"]= 0
+    session["guessScore"]=0
+    start_new_round()
 
 def save_score(player, score):
     sql = "INSERT INTO scores (player, score) VALUES (%s, %s)"
@@ -27,22 +31,28 @@ def save_score(player, score):
     db_connection.commit()
 
 @app.route("/", methods=["GET", "POST"])
+
 def index():
+    if "guessScore" not in session:
+        session["guessScore"]=0
     if "score" not in session:
         session["score"] = 0
-    if "target_number" not in session or time.time() - session["start_time"] > TIME_LIMIT:
-        session["message"]= "Runde Zuende!"
-        time.sleep(5)
-        start_new_round()
+    if "target_number" not in session:
+        session["message"]= "Runde Vorbei"
+        #start_new_round()
 
     if request.method == "POST":
         guess = int(request.form["guess"])
         if guess == session["target_number"]:
             session["message"] = "Congratulations! You guessed the correct number."
             player_name = "Player"  # You can customize this to take player's name as input
-            save_score(player_name, session["score"])
             session["score"] += 10
-            start_new_round()
+            session["guessScore"] += 1
+            if session["guessScore"]>1: #Anzahl der zu erratenden Zahlen pro Runde
+                save_score(player_name, session["score"])
+                start_new_game()
+            else:
+                start_new_round()
         elif guess < session["target_number"]:
             session["message"] = "Try higher!"
             session["score"] -= 1
@@ -59,5 +69,8 @@ def scores():
     scores = db_cursor.fetchall()
     return render_template("scores.html", scores=scores)
 
+@app.route("/menu")
+def menu():
+    a=1
 if __name__ == "__main__":
     app.run(debug=True)
