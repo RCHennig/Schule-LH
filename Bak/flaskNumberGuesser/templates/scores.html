@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Number Guessing Game - Scores</title>
+</head>
+<body>
+    <h1>Scoreboard</h1>
+    <table>
+        <tr>
+            <th>Player</th>
+            <th>Score</th>
+        </tr>
+        {% for score in scores %}
+        <tr>
+            <td>{{ score[0] }}</td>
+            <td>{{ score[1] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <br>
+    <a href="{{ url_for('index') }}">Back to Game</a>
+</body>
+</html>
