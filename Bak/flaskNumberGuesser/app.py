@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, session, redirect, url_for
 import random
 import time
 import mysql.connector
-
+#hallo
 app = Flask(__name__)
 app.secret_key = "your_secret_key"
 TIME_LIMIT = 10
