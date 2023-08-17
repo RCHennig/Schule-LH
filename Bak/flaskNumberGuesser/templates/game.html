@@ -8,10 +8,10 @@
     <h1>Number Guessing Game</h1>
     <p>{{ message }}</p>
     <p>Your score: {{ score }}</p>
-    <form method="POST">
+    <form class="submitForm" method="POST">
         <label for="guess">Enter your guess (1-100):</label>
         <input type="number" name="guess" id="guess" min="1" max="100" required>
-        <button type="submit">Guess</button>
+        <button class="gbtn" type="submit">Guess</button>
     </form>
 </body>
 </html>

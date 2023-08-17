@@ -72,5 +72,10 @@ def scores():
 @app.route("/")
 def menu():
     return render_template("menu.html")
+
+@app.route("/options")
+def options():
+    return render_template("options.html")
+
 if __name__ == "__main__":
     app.run(debug=True)
