@@ -30,9 +30,9 @@ def save_score(player, score):
     db_cursor.execute(sql, values)
     db_connection.commit()
 
-@app.route("/", methods=["GET", "POST"])
+@app.route("/play", methods=["GET", "POST"])
 
-def index():
+def game():
     if "guessScore" not in session:
         session["guessScore"]=0
     if "score" not in session:
@@ -60,7 +60,7 @@ def index():
             session["message"] = "Try lower!"
             session["score"] -= 1
 
-    return render_template("index.html", score=session["score"], message=session.get("message"))
+    return render_template("game.html", score=session["score"], message=session.get("message"))
 
 @app.route("/scores")
 def scores():
@@ -69,8 +69,8 @@ def scores():
     scores = db_cursor.fetchall()
     return render_template("scores.html", scores=scores)
 
-@app.route("/menu")
+@app.route("/")
 def menu():
-    a=1
+    return render_template("menu.html")
 if __name__ == "__main__":
     app.run(debug=True)

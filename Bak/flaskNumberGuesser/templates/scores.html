@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Number Guessing Game - Scores</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/scores.css') }}">  
 </head>
 <body>
     <h1>Scoreboard</h1>
@@ -18,6 +19,6 @@
         {% endfor %}
     </table>
     <br>
-    <a href="{{ url_for('index') }}">Back to Game</a>
+    <a href="{{ url_for('game') }}">Back to Game</a>
 </body>
 </html>
