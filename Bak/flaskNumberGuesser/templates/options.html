@@ -2,37 +2,42 @@
 <html>
 <head>
     <title>Options Menu</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="{{ url_for('static',filename='styles/Options.css') }}">  
 </head>
 <body>
+    <a href="/"><i class="material-icons">home</i></a>
     <h1>Options Menu</h1>
-    <form>
-        <h2>Audio Volume Mixer</h2>
-        <label for="audioVolume">Audio Volume:</label>
-        <input type="range" id="audioVolume" name="audioVolume" min="0" max="100" value="50">
 
-        <h2>Font Size</h2>
+    <form>
+        <br>
+        <label for="audioVolume">Audio Volume:</label>
+        <input class="obtn" type="range" id="audioVolume" name="audioVolume" min="0" max="100" value="50">
+
+        <br>
         <label for="fontSize">Select Font Size:</label>
-        <select id="fontSize" name="fontSize">
+        <select class="obtn" id="fontSize" name="fontSize">
             <option value="small">Small</option>
             <option value="medium" selected>Medium</option>
             <option value="large">Large</option>
         </select>
 
-        <h2>Screen Reader</h2>
+        <br>        
         <label for="screenReader">Enable Screen Reader:</label>
-        <input type="checkbox" id="screenReader" name="screenReader">
+        <input class="checkbox" type="checkbox" id="screenReader" name="screenReader">
 
-        <h2>Meme Option</h2>
+
+        <br>
         <label for="memeOption">Select a Meme:</label>
-        <select id="memeOption" name="memeOption">
+        <select class="obtn" id="memeOption" name="memeOption">
             <option value="none">None</option>
             <option value="cat">Cat</option>
             <option value="dog">Dog</option>
             <option value="laugh">Laugh</option>
         </select>
-
-        <button type="submit">Save</button>
+        <br>
+        <br>
+        <button class="sbtn" type="submit">Save</button>
     </form>
 </body>
 </html>

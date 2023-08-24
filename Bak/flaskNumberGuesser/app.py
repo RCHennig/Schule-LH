@@ -49,6 +49,7 @@ def game():
             session["score"] += 10
             session["guessScore"] += 1
             if session["guessScore"]>1: #Anzahl der zu erratenden Zahlen pro Runde
+
                 save_score(player_name, session["score"])
                 start_new_game()
             else:
@@ -73,9 +74,15 @@ def scores():
 def menu():
     return render_template("menu.html")
 
+@app.route("/endscreen")
+def endscreen():
+    return render_template("endscreen.html")
+
 @app.route("/options")
 def options():
     return render_template("options.html")
+
+
 
 if __name__ == "__main__":
     app.run(debug=True)
