@@ -33,7 +33,11 @@ body {
 
 .navMenu a:hover {
   color: #fddb3a;
+  filter: drop-shadow(2.25px -2px 0.25px #808078);
+  font-weight: 800;
 }
+
+
 
 .navMenu .dot {
   width: 7px;
