@@ -6,13 +6,13 @@ import mysql.connector
 
 app = Flask(__name__)
 app.secret_key = "your_secret_key"
-TIME_LIMIT = 10
+#TIME_LIMIT = 10
 
 # Set up the MySQL connection
 db_connection = mysql.connector.connect(
     host="127.0.0.1",
     user="root",
-    password="RealVM2021",
+    password="",
     database="PlayerData"
 )
 db_cursor = db_connection.cursor()
@@ -34,6 +34,8 @@ def save_score(player, score):
 @app.route("/play", methods=["GET", "POST"])
 
 def game():
+    mixer.music.set_volume(session["volume"])
+
     if "guessScore" not in session:
         session["guessScore"]=0
     if "score" not in session:
@@ -44,6 +46,7 @@ def game():
 
     if request.method == "POST":
         guess = int(request.form["guess"])
+
         if guess == session["target_number"]:
             session["message"] = "Congratulations! You guessed the correct number."
             player_name = "Player"  # You can customize this to take player's name as input
@@ -65,6 +68,7 @@ def game():
 
 @app.route("/scores")
 def scores():
+    mixer.music.set_volume(session["volume"])
     sql = "SELECT player, score FROM scores ORDER BY score DESC"
     db_cursor.execute(sql)
     scores = db_cursor.fetchall()
@@ -73,13 +77,20 @@ def scores():
 @app.route("/")
 def menu():
     mixer.init()
-    mixer.music.load('filename.extention')
+    mixer.music.load('./music/backgroundMusic.mp3')
+    mixer.music.set_volume(0.1)
     mixer.music.play(999)
     return render_template("menu.html")
 
-@app.route("/options")
+@app.route("/options", methods=["GET", "POST"])
 def options():
-    return render_template("options.html")
+    if "volume" not in session:
+        session["volume"] = 0.5
+    if request.method == 'POST':
+        session["volume"] = float(request.form.get("audioVolume") // 100)
+        mixer.music.set_volume(session["volume"])
+        #print(session["volume"])
+    return render_template("options.html", audioVolume=session["volume"])
 
 if __name__ == "__main__":
     app.run(debug=True)
