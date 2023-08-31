@@ -12,7 +12,7 @@ app.secret_key = "your_secret_key"
 db_connection = mysql.connector.connect(
     host="127.0.0.1",
     user="root",
-    password="",
+    password="RealVM2021",
     database="PlayerData"
 )
 db_cursor = db_connection.cursor()
