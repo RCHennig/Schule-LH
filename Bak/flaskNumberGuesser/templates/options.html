@@ -8,10 +8,10 @@
     <a href="/"><i class="material-icons">home</i></a>
     <h1>Options Menu</h1>
 
-    <form>
+    <form class="submitForm" method="POST">
         <br>
         <label for="audioVolume">Audio Volume:</label>
-        <input class="obtn" type="range" id="audioVolume" name="audioVolume" min="0" max="100" value="{{ audio_volume }}">
+        <input class="obtn" type="range" id="audioVolume" name="audioVolume" min="0" max="100" value="{{ audioVolume }}">
         <br>
         <label for="fontSize">Select Font Size:</label>
         <select class="obtn" id="fontSize" name="fontSize">

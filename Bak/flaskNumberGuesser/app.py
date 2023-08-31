@@ -12,7 +12,7 @@ app.secret_key = "your_secret_key"
 db_connection = mysql.connector.connect(
     host="127.0.0.1",
     user="root",
-    password="RealVM2021",
+    password="",
     database="PlayerData"
 )
 db_cursor = db_connection.cursor()
@@ -34,9 +34,9 @@ def save_score(player, score):
 @app.route("/play", methods=["GET", "POST"])
 
 def game():
-    if "volume" not in session:
-        session["volume"] = 0.5
-    mixer.music.set_volume(session["volume"])
+
+    volume = session["audioVolume"] / 100
+    mixer.music.set_volume(volume)
 
     if "guessScore" not in session:
         session["guessScore"]=0
@@ -44,7 +44,7 @@ def game():
         session["score"] = 0
     if "target_number" not in session:
         session["message"]= "Runde Vorbei"
-        #start_new_round()
+        start_new_round()
 
     if request.method == "POST":
         guess = int(request.form["guess"])
@@ -70,9 +70,9 @@ def game():
 
 @app.route("/scores")
 def scores():
-    if "volume" not in session:
-        session["volume"] = 0.5
-    mixer.music.set_volume(session["volume"])
+    volume = session["audioVolume"] / 100
+    mixer.music.set_volume(volume)
+
     sql = "SELECT player, score FROM scores ORDER BY score DESC"
     db_cursor.execute(sql)
     scores = db_cursor.fetchall()
@@ -80,34 +80,36 @@ def scores():
 
 @app.route("/")
 def menu():
-    if "volume" not in session:
-        session["volume"] = 0.5
-    mixer.music.set_volume(session["volume"])
+    if "audioVolume" not in session:
+        session["audioVolume"] = 50
     mixer.init()
+    volume = session["audioVolume"] / 100
+    mixer.music.set_volume(volume)
     mixer.music.load('./music/backgroundMusic.mp3')
     mixer.music.play(999)
     return render_template("menu.html")
 
 @app.route("/endscreen", methods=["GET","POST"])
 def endscreen():
-    if "volume" not in session:
-        session["volume"] = 0.5
-    mixer.music.set_volume(session["volume"])
+    volume = session["audioVolume"] / 100
+    mixer.music.set_volume(volume)
 
     if request.method=="POST":
          playerName = int(request.form["playername"])
 
     return render_template("endscreen.html")
 
-@app.route("/options")
+@app.route("/options", methods=["GET","POST"])
 def options():
-    if "volume" not in session:
-        session["volume"] = 0.5
-    if request.method == 'POST':
-        session["volume"] = float(request.form.get("audioVolume") // 100)
-        mixer.music.set_volume(session["volume"])
-        #print(session["volume"])
-    return render_template("options.html", audioVolume=session["volume"])
+    if request.method=="POST":
+        #print('test')
+        session["audioVolume"] = int(request.form.get("audioVolume"))
+        volume = session["audioVolume"] / 100
+        mixer.music.set_volume(volume)
+        #print(session["audioVolume"])
+        #print(volume)
+    
+    return render_template("options.html", audioVolume=session["audioVolume"])
 
 if __name__ == "__main__":
     app.run(debug=True)
