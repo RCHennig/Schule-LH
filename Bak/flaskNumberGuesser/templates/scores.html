@@ -2,15 +2,19 @@
 <html>
 <head>
     <title>Number Guessing Game - Scores</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="{{ url_for('static',filename='styles/scores.css') }}">  
 </head>
 <body>
+    <a href="/"><i class="material-icons">home</i></a>
     <h1>Scoreboard</h1>
     <table>
-        <tr>
-            <th>Player</th>
-            <th>Score</th>
-        </tr>
+        <thead>
+            <tr>
+                <th>Playername</th>
+                <th>Score</th>
+            </tr>
+        </thead>
         {% for score in scores %}
         <tr>
             <td>{{ score[0] }}</td>
@@ -18,7 +22,5 @@
         </tr>
         {% endfor %}
     </table>
-    <br>
-    <a href="{{ url_for('game') }}">Back to Game</a>
 </body>
 </html>
