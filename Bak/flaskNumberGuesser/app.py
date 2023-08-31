@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, session, redirect, url_for
-#from pygame import mixer
+from pygame import mixer
 import random
 import time
 import mysql.connector
@@ -76,9 +76,9 @@ def scores():
 
 @app.route("/")
 def menu():
-    #mixer.init()
-    #mixer.music.load('filename.extention')
-    #mixer.music.play(999)
+    mixer.init()
+    mixer.music.load('/music/backgroundMusic.mp3')
+    mixer.music.play(999)
     return render_template("menu.html")
 
 @app.route("/endscreen", methods=["GET","POST"])
