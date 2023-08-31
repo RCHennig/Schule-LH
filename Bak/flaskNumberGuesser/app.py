@@ -34,6 +34,8 @@ def save_score(player, score):
 @app.route("/play", methods=["GET", "POST"])
 
 def game():
+    if "volume" not in session:
+        session["volume"] = 0.5
     mixer.music.set_volume(session["volume"])
 
     if "guessScore" not in session:
@@ -68,6 +70,8 @@ def game():
 
 @app.route("/scores")
 def scores():
+    if "volume" not in session:
+        session["volume"] = 0.5
     mixer.music.set_volume(session["volume"])
     sql = "SELECT player, score FROM scores ORDER BY score DESC"
     db_cursor.execute(sql)
@@ -76,6 +80,9 @@ def scores():
 
 @app.route("/")
 def menu():
+    if "volume" not in session:
+        session["volume"] = 0.5
+    mixer.music.set_volume(session["volume"])
     mixer.init()
     mixer.music.load('/music/backgroundMusic.mp3')
     mixer.music.play(999)
@@ -83,6 +90,10 @@ def menu():
 
 @app.route("/endscreen", methods=["GET","POST"])
 def endscreen():
+    if "volume" not in session:
+        session["volume"] = 0.5
+    mixer.music.set_volume(session["volume"])
+
     if request.method=="POST":
          playerName = int(request.form["playername"])
 
