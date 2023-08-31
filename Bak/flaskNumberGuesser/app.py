@@ -77,7 +77,7 @@ def scores():
 @app.route("/")
 def menu():
     mixer.init()
-    mixer.music.load('/music/backgroundMusic.mp3')
+    mixer.music.load('./music/backgroundMusic.mp3')
     mixer.music.play(999)
     return render_template("menu.html")
 
