@@ -44,7 +44,7 @@ def game():
         session["score"] = 0
     if "target_number" not in session:
         session["message"]= "Runde Vorbei"
-        start_new_round()
+        #start_new_round()
 
     if request.method == "POST":
         guess = int(request.form["guess"])
@@ -54,9 +54,9 @@ def game():
             player_name = "Player"  # You can customize this to take player's name as input
             session["score"] += 10
             session["guessScore"] += 1
-            if session["guessScore"]>1: #Anzahl der zu erratenden Zahlen pro Runde
-                save_score(player_name, session["score"])
-                start_new_game()
+            if session["guessScore"]>0: #Anzahl der zu erratenden Zahlen pro Runde
+                return redirect("/endscreen", code=302)
+
             else:
                 start_new_round()
         elif guess < session["target_number"]:
@@ -80,11 +80,10 @@ def scores():
 
 @app.route("/")
 def menu():
-    if "audioVolume" not in session:
-        session["audioVolume"] = 50
+    if "volume" not in session:
+        session["volume"] = 0.5
+    mixer.music.set_volume(session["volume"])
     mixer.init()
-    volume = session["audioVolume"] / 100
-    mixer.music.set_volume(volume)
     mixer.music.load('./music/backgroundMusic.mp3')
     mixer.music.play(999)
     return render_template("menu.html")
@@ -95,7 +94,8 @@ def endscreen():
     mixer.music.set_volume(volume)
 
     if request.method=="POST":
-         playerName = int(request.form["playername"])
+        playerName =(request.form["playername"])
+        save_score(playerName,session["score"])
 
     return render_template("endscreen.html")
 
