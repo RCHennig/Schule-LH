@@ -40,7 +40,7 @@ class PageRankGraph:
         # Rückgabe der Liste aller PageNode-Objekte im Graphen
         return self.nodes
 
-    def calculate_pagerank(self, damping_factor=0.85, num_iterations=10):
+    def calculate_pagerank(self, num_iterations, damping_factor=0.85):
         # Iterative Berechnung des PageRanks für den Graphen
         for _ in range(num_iterations):
             new_pageranks = []
@@ -75,7 +75,7 @@ graph.add_node(node_a)
 graph.add_node(node_b)
 graph.add_node(node_c)
 
-graph.calculate_pagerank()
+graph.calculate_pagerank(num_iterations=10)
 
 # Ausgabe der berechneten PageRanks für jede Seite im Graphen
 for node in graph.get_nodes():
@@ -105,7 +105,7 @@ class PageRankTest(unittest.TestCase):
 
     def test_pagerank_calculation(self):
         # Berechne PageRanks
-        self.graph.calculate_pagerank()
+        self.graph.calculate_pagerank(num_iterations=10)
 
         # Überprüfe die berechneten Werte mit den händisch berechneten Werten
         expected_pageranks = {1: 0.2610, 2: 0.2610, 3: 0.3720}
