@@ -1,0 +1,70 @@
+import mysql.connector
+
+def fetch_data_from_mysql():
+    # Verbindung zur MySQL-Datenbank herstellen
+    db_connection = mysql.connector.connect(
+        host='127.0.0.1',
+        user='root',
+        password='',
+        database='tbs1_wiki'
+    )
+
+    cursor = db_connection.cursor()
+
+    # SQL-Statement ausführen
+    sql_statement = """
+    SELECT Convert(p1.page_title USING utf8) AS ArtikelQuelle, Convert(p2.page_title USING utf8) AS ArtikelZiel
+    FROM pagelinks pl
+    JOIN page p1 ON pl.pl_from = p1.page_id
+    JOIN page p2 ON pl.pl_from_namespace = p2.page_namespace AND pl.pl_title = p2.page_title;
+    """
+
+    cursor.execute(sql_statement)
+
+    # Graph erstellen (als Adjazenzliste)
+    graph = {}
+
+    for (artikel_quelle, artikel_ziel) in cursor:
+        if artikel_quelle not in graph:
+            graph[artikel_quelle] = []
+        if artikel_ziel not in graph:
+            graph[artikel_ziel] = []
+        graph[artikel_quelle].append(artikel_ziel)
+
+    # PageRank berechnen
+    pagerank = calculate_pagerank(graph)
+
+    # Ergebnisse anzeigen
+    print("PageRank-Ergebnisse:")
+    for artikel, rank in sorted(pagerank.items(), key=lambda x: x[1], reverse=True):
+        print(f"{artikel}: {rank}")
+
+    # Verbindung schließen
+    cursor.close()
+    db_connection.close()
+
+
+def calculate_pagerank(graph, damping_factor=0.85, max_iterations=100, tolerance=1e-10):
+    # Initialize PageRank values
+    pagerank = {node: 1.0 for node in graph}
+    num_nodes = len(graph)
+
+    # Iterative calculation of PageRank
+    for _ in range(max_iterations):
+        new_pagerank = {}
+        for node in graph:
+            rank = (1 - damping_factor) / num_nodes
+            rank += damping_factor * sum(pagerank[neighbor] / len(graph.get(neighbor, [])) for neighbor in graph.get(node, []))
+            new_pagerank[node] = rank
+
+        # Check for convergence
+        if all(abs(new_pagerank[node] - pagerank[node]) < tolerance for node in graph):
+            break
+
+        pagerank = new_pagerank
+
+    return pagerank
+
+
+# Call the function to execute the code
+fetch_data_from_mysql()
